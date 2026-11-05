@@ -1,4 +1,4 @@
-# Baja cierres diarios y genera cotizaciones.json (formato largo) para el tablero.
+﻿# Baja cierres diarios y genera cotizaciones.json (formato largo) para el tablero.
 # Excluye la fecha de hoy: el tablero muestra solo ruedas terminadas.
 # Merval, AL30D y GD30D no tienen API gratuita con historia: se cargan desde -Manual
 # (filas {id,fecha,valor} tomadas de un cierre publicado) y se acumulan desde -Salida.
