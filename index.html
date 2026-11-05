@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pulso de Cartera</title>
+<meta name="description" content="Resumen diario de noticias financieras de Brasil y Argentina, con lectura de analista.">
+<style>
+:root{color-scheme:light;--color-bg:#f9f9f7;--color-panel:#fcfcfb;--color-fg:#0b0b0b;--color-fg-muted:#5f5e5a;--color-border-line:rgba(11,11,11,.12);--color-ok:#0f7a54;--color-bad:#c93a39;--serie:#256abf;--cds-text-secondary:#5f5e5a;--cds-border:#c3c2b7;--cds-surface-popover:#fcfcfb;--cds-shadow-popover:0 4px 14px rgba(0,0,0,.14);--cds-radius:10px;--cds-font-size-caption:13px;--cds-font-size-body:15.5px;--cds-font-size-heading:21px;--cds-font-size-title:clamp(25px,3.4vw,34px);--cds-font-weight-medium:600;--cds-gap-xs:6px;--cds-gap-sm:10px;--cds-gap-md:14px;--cds-gap-lg:22px;--cds-gap-xl:38px;--cds-pad-xs:5px;--cds-pad-sm:9px;--cds-pad-md:14px;--cds-pad-lg:18px;--cds-pad-xl:32px;--cds-dur-slow:.3s;--font-anthropic-sans:system-ui,-apple-system,"Segoe UI",sans-serif;--font-anthropic-serif:Georgia,"Times New Roman",serif}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--color-bg:#0d0d0d;--color-panel:#1a1a19;--color-fg:#f0efec;--color-fg-muted:#a9a79e;--color-border-line:rgba(255,255,255,.12);--color-ok:#3fc794;--color-bad:#ee7a79;--serie:#6da7ec;--cds-text-secondary:#a9a79e;--cds-border:#383835;--cds-surface-popover:#1a1a19}}
+body{margin:0;background:var(--color-bg);color:var(--color-fg)}
+#dash-root{max-width:1120px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+
+.pc{font-family:var(--font-anthropic-sans);color:var(--color-fg);display:grid;gap:var(--cds-gap-xl);padding-block:var(--cds-pad-sm) var(--cds-pad-xl);min-width:0}
+.pc *{box-sizing:border-box}
+.pc-cab{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--cds-gap-sm);align-items:center}
+.pc-marca{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);margin:0}
+.pc-control{display:flex;align-items:center;gap:var(--cds-gap-xs);font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.pc select{font:inherit;color:var(--color-fg);background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-xs) var(--cds-pad-sm);min-height:32px}
+.pc-apertura{display:grid;gap:var(--cds-gap-sm);max-width:75ch}
+.pc-periodo{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm);align-items:center;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0}
+.pc-titular{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);line-height:1.2;margin:0;text-wrap:balance}
+.pc-resumen{font-size:var(--cds-font-size-body);line-height:1.55;margin:0}
+.pc-pill{display:inline-block;font-size:var(--cds-font-size-caption);font-weight:var(--cds-font-weight-medium);padding:1px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.pc-Favorable{color:var(--color-ok)}.pc-Adverso{color:var(--color-bad)}.pc-Neutral{color:var(--color-fg-muted)}
+.pc-sube{color:var(--color-ok)}.pc-baja{color:var(--color-bad)}.pc-igual{color:var(--color-fg-muted)}
+.pc-sec{display:grid;gap:var(--cds-gap-md);min-width:0}
+.pc-sec>header{display:grid;gap:2px}
+.pc h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0}
+.pc h3{font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium);margin:0}
+.pc-nota{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin:0;line-height:1.45}
+.pc-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,10.5rem),1fr));gap:var(--cds-gap-md);min-height:9rem}
+.pc-tile{position:relative;background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md);display:grid;gap:4px;align-content:start;min-width:0}
+.pc-tile-et{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);display:flex;justify-content:space-between;gap:6px}
+.pc-tile-val{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);font-weight:400;line-height:1.15;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pc-tile-var{font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;gap:2px 10px}
+.pc-tile-var span:last-child{color:var(--color-fg-muted)}
+.pc-spark{position:relative;height:44px;margin-top:4px}
+.pc-spark svg{display:block}
+.pc-spark-vacio{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:44px;white-space:nowrap}
+.pc-tip{position:absolute;bottom:100%;margin-bottom:4px;background:var(--cds-surface-popover);border:1px solid var(--cds-border);border-radius:var(--cds-radius);box-shadow:var(--cds-shadow-popover);padding:var(--cds-pad-xs) var(--cds-pad-sm);font-size:var(--cds-font-size-caption);pointer-events:none;white-space:nowrap;z-index:3;font-variant-numeric:tabular-nums}
+.pc-tip span{color:var(--cds-text-secondary);margin-right:6px}
+.pc-puntos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:var(--cds-gap-lg);margin:0;padding:0;list-style:none}
+.pc-puntos li{display:grid;gap:4px;align-content:start}
+.pc-puntos p,.pc-activo p,.pc-noticia p{margin:0;font-size:var(--cds-font-size-body);line-height:1.5}
+.pc-noche{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md);display:grid;gap:4px;max-width:75ch}
+.pc-noche p{margin:0;line-height:1.5}
+.pc-grilla{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,21rem),1fr));gap:var(--cds-gap-md)}
+.pc-activo{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg);display:grid;gap:var(--cds-gap-sm);align-content:start;min-width:0}
+.pc-activo-cab{display:flex;justify-content:space-between;gap:var(--cds-gap-sm);align-items:baseline}
+.pc-rotulo{display:block;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-bottom:1px}
+.pc-filtros{display:flex;flex-wrap:wrap;gap:var(--cds-gap-xs)}
+.pc-filtros button{font:inherit;font-size:var(--cds-font-size-caption);color:var(--color-fg);background:transparent;border:1px solid var(--color-border-line);border-radius:999px;padding:4px 12px;min-height:30px;cursor:pointer}
+.pc-filtros button[aria-pressed="true"]{background:var(--color-fg);color:var(--color-bg);border-color:var(--color-fg)}
+.pc-filtros button:focus-visible,.pc select:focus-visible,.pc a:focus-visible{outline:2px solid var(--color-fg);outline-offset:2px}
+.pc-lista{display:grid;min-width:0}
+.pc-noticia{display:grid;gap:4px;padding-block:var(--cds-pad-md);border-top:1px solid var(--color-border-line);max-width:80ch}
+.pc-noticia-meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.pc-noticia a{color:inherit;font-size:var(--cds-font-size-caption)}
+.pc-tabla{overflow-x:auto;background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);container-type:inline-size}
+.pc-tabla table{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.pc-tabla th,.pc-tabla td{padding:var(--cds-pad-xs) var(--cds-pad-sm);text-align:right;white-space:nowrap;border-top:1px solid var(--color-border-line)}
+.pc-tabla thead th{border-top:0;font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted)}
+.pc-tabla th:first-child,.pc-tabla td:first-child{text-align:left}
+.pc-tabla .pc-grupo th{font-weight:var(--cds-font-weight-medium);color:var(--color-fg);text-align:left}
+.pc-tabla .pc-fino{color:var(--color-fg-muted);margin-left:6px}
+.pc-agenda td,.pc-agenda th{white-space:normal;text-align:left;vertical-align:top}
+.pc-agenda td:first-child{white-space:nowrap}
+@container (max-width:34rem){.pc-sec-5r{display:none}.pc .pc-fino{display:none}}
+[data-dash-source-state=refreshing]{opacity:.5;transition:opacity var(--cds-dur-slow)}
+
+</style>
+</head>
+<body>
+<div id="dash-root">
+
+<div class="pc" id="pulso">
+  <div class="pc-cab">
+    <p class="pc-marca">Pulso de Cartera</p>
+    <label class="pc-control">Informe del
+      <select id="dia" data-draw="dia" aria-label="Elegir informe"></select>
+    </label>
+  </div>
+
+  <section class="pc-apertura" id="titular" aria-label="Resumen del día">
+    <p class="pc-periodo"><span data-draw="tono">—</span><span>Cubre hasta el cierre del <span data-draw="cierre">—</span></span></p>
+    <h1 class="pc-titular" data-draw="titular">—</h1>
+    <p class="pc-resumen" data-draw="resumen">—</p>
+  </section>
+
+  <section class="pc-sec" id="cartera">
+    <header>
+      <h2>Cómo cerró tu cartera</h2>
+      <p class="pc-nota">Último cierre de cada activo, variación contra la rueda anterior y contra hace un mes. La línea muestra el último mes.</p>
+    </header>
+    <div class="pc-tiles" data-draw="cartera"></div>
+  </section>
+
+  <section class="pc-sec" id="importa">
+    <header><h2>Lo que importa hoy</h2></header>
+    <ul class="pc-puntos" data-draw="puntos"></ul>
+    <div class="pc-noche" id="noche">
+      <h3>Después del cierre</h3>
+      <p data-draw="noche">—</p>
+    </div>
+  </section>
+
+  <section class="pc-sec" id="lectura">
+    <header>
+      <h2>Lectura por activo</h2>
+      <p class="pc-nota">Mide cómo pegan las noticias del día en cada activo. No es una recomendación de compra o venta.</p>
+    </header>
+    <div class="pc-grilla" data-draw="activos"></div>
+  </section>
+
+  <section class="pc-sec" id="noticias">
+    <header>
+      <h2>Noticias de la rueda</h2>
+      <p class="pc-nota">Cada una lleva su lectura y el enlace a la fuente original.</p>
+    </header>
+    <div class="pc-filtros" role="group" aria-label="Filtrar noticias por región">
+      <button type="button" data-region="Todas">Todas</button>
+      <button type="button" data-region="Argentina">Argentina</button>
+      <button type="button" data-region="Brasil">Brasil</button>
+      <button type="button" data-region="Global">Global</button>
+    </div>
+    <div class="pc-lista" data-draw="noticias"></div>
+  </section>
+
+  <section class="pc-sec" id="agenda">
+    <header><h2>Qué viene</h2></header>
+    <div class="pc-tabla">
+      <table class="pc-agenda">
+        <thead><tr><th scope="col">Fecha</th><th scope="col">Evento</th><th scope="col">Afecta a</th><th scope="col">Por qué importa</th></tr></thead>
+        <tbody data-draw="agenda"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="pc-sec" id="contexto">
+    <header>
+      <h2>Contexto de mercado</h2>
+      <p class="pc-nota">Riesgo país, VIX y Treasury varían en puntos; el resto, en porcentaje.</p>
+    </header>
+    <div class="pc-tabla">
+      <table>
+        <thead><tr><th scope="col">Activo</th><th scope="col">Cierre</th><th scope="col">Rueda</th><th scope="col" class="pc-sec-5r">5 ruedas</th><th scope="col">1 mes</th><th scope="col">Fecha</th></tr></thead>
+        <tbody data-draw="contexto"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="pc-sec" id="notas">
+    <header><h2>Límites de este informe</h2></header>
+    <p class="pc-nota" data-draw="limites">—</p>
+    <p class="pc-nota">Resumen informativo generado con fuentes públicas. Las lecturas son interpretaciones y pueden equivocarse: no constituyen asesoramiento financiero ni recomendaciones de inversión.</p>
+  </section>
+</div>
+
+</div>
+<script src="data/datos.js"></script>
+<script>
+"use strict";
+/* Reemplazo mínimo de la API del tablero: los datos vienen de data/datos.js. */
+const FUENTE = window.PULSO || { cotizaciones: [], informes: [] };
+const calculos = {}, dibujos = {};
+let parametros = { region: 'Todas', dia: null };
+const redibujar = () => {
+  for (const n in dibujos) document.querySelectorAll(`[data-draw="${n}"]`).forEach((el) => dibujos[n](el));
+  oyentes.forEach((f) => f());
+};
+const oyentes = [];
+const dash = {
+  colors: ['var(--serie)'],
+  data: (id) => {
+    const data = calculos[id] || FUENTE[id] || [];
+    return { status: data.length ? 'ok' : 'loading', data };
+  },
+  params: () => parametros,
+  setParams: (p) => { parametros = { ...parametros, ...p }; redibujar(); },
+  calc: (id, c) => { calculos[id] = c.fn(...c.inputs.map((i) => FUENTE[i] || [])); },
+  draw: (n, f) => { dibujos[n] = f; },
+  onData: (f) => { oyentes.push(f); },
+};
+/* Escalas lineales propias, para no depender de bibliotecas externas. */
+const extremos = (a) => [Math.min(...a), Math.max(...a)];
+const escala = ([d0, d1], [r0, r1]) => (v) => (d1 === d0 ? (r0 + r1) / 2 : r0 + ((+v - +d0) / (+d1 - +d0)) * (r1 - r0));
+
+const INVERSO = new Set(['RP', 'VIX', 'UST10']);
+const NEUTRO = new Set(['CCL', 'MAY', 'BLUE', 'BRL']);
+
+dash.calc('variaciones', {
+  title: 'Variaciones por rueda',
+  description: 'Cambio de cada activo contra la rueda anterior, cinco ruedas antes y el último cierre de hace 30 días o más. Porcentaje o diferencia en puntos, según el activo.',
+  inputs: ['cotizaciones'],
+  fn: (cotizaciones) => {
+    const grupos = new Map();
+    for (const r of cotizaciones) {
+      if (!grupos.has(r.id)) grupos.set(r.id, []);
+      grupos.get(r.id).push(r);
+    }
+    const salida = [];
+    for (const [id, filas] of grupos) {
+      filas.sort((a, b) => a.fecha.localeCompare(b.fecha));
+      filas.forEach((r, i) => {
+        const cambio = (base) => {
+          if (!base) return null;
+          const v = Number(r.valor), b = Number(base.valor);
+          const d = r.tipo === 'abs' ? v - b : (v / b - 1) * 100;
+          return Math.round(d * 100) / 100;
+        };
+        const limite = new Date(Date.parse(r.fecha + 'T12:00:00Z') - 30 * 864e5).toISOString().slice(0, 10);
+        let mes = null;
+        for (let k = i - 1; k >= 0; k--) { if (filas[k].fecha <= limite) { mes = filas[k]; break; } }
+        salida.push({ id, fecha: r.fecha, var_rueda: cambio(filas[i - 1]), var_5r: cambio(filas[i - 5]), var_1m: cambio(mes) });
+      });
+    }
+    return salida;
+  },
+});
+
+const lista = (v) => {
+  if (Array.isArray(v)) return v;
+  if (typeof v === 'string' && v) { try { const p = JSON.parse(v); return Array.isArray(p) ? p : []; } catch (e) { return []; } }
+  return [];
+};
+const elegido = () => {
+  const g = dash.data('informes');
+  if (g.status !== 'ok' || !g.data.length) return null;
+  const orden = [...g.data].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
+  const d = dash.params().dia;
+  return orden.find((r) => r.fecha === d) || orden[0];
+};
+const aFecha = (s) => new Date(String(s).slice(0, 10) + 'T12:00:00Z');
+const fLarga = (s) => aFecha(s).toLocaleDateString('es-AR', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' });
+const fCorta = (s) => aFecha(s).toLocaleDateString('es-AR', { day: '2-digit', month: '2-digit', timeZone: 'UTC' });
+const num = (v, d) => new Intl.NumberFormat('es-AR', { minimumFractionDigits: d, maximumFractionDigits: d }).format(v);
+const valor = (r) => {
+  const n = num(Number(r.valor), Number(r.dec));
+  switch (r.unidad) {
+    case 'USD': return 'US$ ' + n;
+    case 'ARS': return '$ ' + n;
+    case 'BRL': return 'R$ ' + n;
+    case '%': return n + ' %';
+    case 'pb': return n + ' pb';
+    case '¢/bu': return n + ' ¢/bu';
+    default: return n;
+  }
+};
+const variacion = (x, r) => {
+  if (x === null || x === undefined || Number.isNaN(Number(x))) return '—';
+  const v = Number(x), s = v > 0 ? '+' : '';
+  if (r.tipo === 'abs') return s + num(v, r.unidad === 'pb' ? 0 : 2) + (r.unidad === 'pb' ? ' pb' : r.unidad === '%' ? ' pp' : ' pts');
+  return s + num(v, 1) + ' %';
+};
+const clase = (x, id) => {
+  const v = Number(x);
+  if (x === null || x === undefined || !v || NEUTRO.has(id)) return 'pc-igual';
+  return (v > 0) !== INVERSO.has(id) ? 'pc-sube' : 'pc-baja';
+};
+const flecha = (x) => { const v = Number(x); return x === null || x === undefined || !v ? '' : v > 0 ? '▲ ' : '▼ '; };
+const crear = (tag, cls, txt) => {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (txt !== undefined) e.textContent = txt;
+  return e;
+};
+/* Filas de cada activo hasta el cierre del informe elegido. */
+const activosAl = () => {
+  const c = dash.data('cotizaciones'), v = dash.data('variaciones'), inf = elegido();
+  if (c.status !== 'ok' || v.status !== 'ok' || !inf) return [];
+  const vars = new Map(v.data.map((x) => [x.id + '|' + x.fecha, x]));
+  const porId = new Map();
+  for (const r of c.data) {
+    if (r.fecha > inf.cierre) continue;
+    if (!porId.has(r.id)) porId.set(r.id, []);
+    porId.get(r.id).push(r);
+  }
+  return [...porId.values()].map((filas) => {
+    filas.sort((a, b) => a.fecha.localeCompare(b.fecha));
+    const u = filas[filas.length - 1];
+    return { u, filas, v: vars.get(u.id + '|' + u.fecha) || {} };
+  }).sort((a, b) => Number(a.u.orden) - Number(b.u.orden));
+};
+
+const spark = (caja, a) => {
+  caja.replaceChildren();
+  const limite = new Date(aFecha(a.u.fecha).getTime() - 31 * 864e5).toISOString().slice(0, 10);
+  const pts = a.filas.filter((r) => r.fecha >= limite);
+  if (pts.length < 3) { caja.append(crear('div', 'pc-spark-vacio', 'Historia en construcción')); return; }
+  const w = Math.max(caja.clientWidth || 140, 60), h = 44, m = 4;
+  const x = escala(extremos(pts.map((r) => aFecha(r.fecha).getTime())), [m, w - m]);
+  const y = escala(extremos(pts.map((r) => Number(r.valor))), [h - m, m]);
+  const X = (r) => x(aFecha(r.fecha).getTime()), Y = (r) => y(Number(r.valor));
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('width', '100%'); svg.setAttribute('height', h); svg.setAttribute('viewBox', `0 0 ${w} ${h}`);
+  svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', `${a.u.activo}, evolución del último mes`);
+  const path = document.createElementNS(NS, 'path');
+  path.setAttribute('d', pts.map((r, i) => (i ? 'L' : 'M') + X(r).toFixed(1) + ' ' + Y(r).toFixed(1)).join(''));
+  path.setAttribute('fill', 'none'); path.setAttribute('stroke-width', 2); path.setAttribute('stroke-linecap', 'round'); path.setAttribute('stroke-linejoin', 'round');
+  path.style.stroke = dash.colors[0];
+  const ult = pts[pts.length - 1];
+  const dot = document.createElementNS(NS, 'circle');
+  dot.setAttribute('r', 3); dot.style.fill = dash.colors[0];
+  const poner = (r) => { dot.setAttribute('cx', X(r)); dot.setAttribute('cy', Y(r)); };
+  poner(ult);
+  svg.append(path, dot);
+  caja.append(svg);
+  const tip = crear('div', 'pc-tip');
+  tip.hidden = true;
+  caja.append(tip);
+  svg.addEventListener('pointermove', (ev) => {
+    const px = (ev.clientX - svg.getBoundingClientRect().left) * (w / svg.getBoundingClientRect().width);
+    const r = pts.reduce((b, c) => (Math.abs(X(c) - px) < Math.abs(X(b) - px) ? c : b));
+    poner(r);
+    tip.replaceChildren(crear('span', '', fCorta(r.fecha)), document.createTextNode(valor(r)));
+    tip.hidden = false;
+    tip.style.left = Math.min(Math.max(0, X(r) - tip.offsetWidth / 2), Math.max(0, w - tip.offsetWidth)) + 'px';
+  });
+  svg.addEventListener('pointerleave', () => { tip.hidden = true; poner(ult); });
+};
+const texto = (nombre, campo) => dash.draw(nombre, (el) => {
+  const i = elegido();
+  el.textContent = i && i[campo] ? i[campo] : '—';
+});
+texto('titular', 'titular');
+texto('resumen', 'resumen');
+texto('noche', 'noche');
+texto('limites', 'limites');
+
+dash.draw('tono', (el) => {
+  const i = elegido();
+  el.className = i ? 'pc-pill pc-' + i.tono : '';
+  el.textContent = i ? 'Día ' + String(i.tono).toLowerCase() : '—';
+});
+dash.draw('cierre', (el) => {
+  const i = elegido();
+  el.textContent = i ? fLarga(i.cierre) : '—';
+});
+dash.draw('dia', (sel) => {
+  const g = dash.data('informes');
+  const filas = g.status === 'ok' ? [...g.data].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha))) : [];
+  sel.replaceChildren(...filas.map((r) => new Option(fLarga(r.fecha), r.fecha)));
+  const i = elegido();
+  if (i) sel.value = i.fecha;
+  sel.onchange = () => dash.setParams({ dia: sel.value });
+});
+dash.draw('cartera', (el) => {
+  el.replaceChildren();
+  for (const a of activosAl().filter((x) => x.u.grupo === 'Cartera')) {
+    const t = crear('article', 'pc-tile');
+    const et = crear('div', 'pc-tile-et');
+    et.append(crear('span', '', a.u.activo), crear('span', '', fCorta(a.u.fecha)));
+    const vv = crear('div', 'pc-tile-var');
+    vv.append(crear('span', clase(a.v.var_rueda, a.u.id), flecha(a.v.var_rueda) + variacion(a.v.var_rueda, a.u)), crear('span', '', '1 mes ' + variacion(a.v.var_1m, a.u)));
+    const caja = crear('div', 'pc-spark');
+    t.append(et, crear('div', 'pc-tile-val', valor(a.u)), vv, caja);
+    el.append(t);
+    spark(caja, a);
+  }
+});
+dash.draw('puntos', (el) => {
+  const i = elegido();
+  el.replaceChildren(...lista(i && i.puntos).map((p) => {
+    const li = crear('li');
+    li.append(crear('h3', '', p.titulo), crear('p', '', p.texto));
+    return li;
+  }));
+});
+dash.draw('activos', (el) => {
+  const i = elegido();
+  el.replaceChildren(...lista(i && i.activos).map((a) => {
+    const c = crear('article', 'pc-activo');
+    const cab = crear('div', 'pc-activo-cab');
+    const n = crear('div');
+    n.append(crear('span', 'pc-rotulo', a.pais), crear('h3', '', a.nombre));
+    cab.append(n, crear('span', 'pc-pill pc-' + a.impacto, a.impacto));
+    const bloque = (rotulo, txt) => {
+      const d = crear('div');
+      d.append(crear('span', 'pc-rotulo', rotulo), crear('p', '', txt));
+      return d;
+    };
+    c.append(cab, bloque('Qué pasó', a.que_paso), bloque('Cómo lo leo', a.lectura), bloque('Qué vigilar', a.vigilar));
+    return c;
+  }));
+});
+dash.draw('noticias', (el) => {
+  const i = elegido(), region = dash.params().region || 'Todas';
+  const filas = lista(i && i.noticias).filter((n) => region === 'Todas' || n.region === region);
+  el.replaceChildren(...filas.map((n) => {
+    const c = crear('article', 'pc-noticia');
+    const meta = crear('div', 'pc-noticia-meta');
+    meta.append(crear('span', 'pc-pill pc-' + n.impacto, n.impacto), crear('span', '', n.region + ' · ' + n.activos));
+    c.append(meta, crear('h3', '', n.titulo), crear('p', '', n.lectura));
+    if (/^https:\/\//.test(n.url || '')) {
+      const a = crear('a', '', n.medio);
+      a.href = n.url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+      c.append(a);
+    } else c.append(crear('span', 'pc-nota', n.medio));
+    return c;
+  }));
+});
+dash.draw('agenda', (el) => {
+  const i = elegido();
+  el.replaceChildren(...lista(i && i.agenda).map((a) => {
+    const tr = crear('tr');
+    tr.append(crear('td', '', fCorta(a.fecha)), crear('td', '', a.evento), crear('td', '', a.activos), crear('td', '', a.por_que));
+    return tr;
+  }));
+});
+dash.draw('contexto', (el) => {
+  el.replaceChildren();
+  let grupo = null;
+  for (const a of activosAl().filter((x) => x.u.grupo !== 'Cartera')) {
+    if (a.u.grupo !== grupo) {
+      grupo = a.u.grupo;
+      const g = crear('tr', 'pc-grupo'), th = crear('th', '', grupo);
+      th.colSpan = 6; th.scope = 'colgroup';
+      g.append(th); el.append(g);
+    }
+    const tr = crear('tr'), nom = crear('td', '', a.u.activo);
+    nom.append(crear('span', 'pc-fino', a.u.nombre));
+    tr.append(nom, crear('td', '', valor(a.u)),
+      crear('td', clase(a.v.var_rueda, a.u.id), variacion(a.v.var_rueda, a.u)),
+      crear('td', 'pc-sec-5r ' + clase(a.v.var_5r, a.u.id), variacion(a.v.var_5r, a.u)),
+      crear('td', clase(a.v.var_1m, a.u.id), variacion(a.v.var_1m, a.u)),
+      crear('td', '', fCorta(a.u.fecha)));
+    el.append(tr);
+  }
+});
+
+document.querySelectorAll('.pc-filtros button').forEach((b) => {
+  b.addEventListener('click', () => dash.setParams({ region: b.dataset.region }));
+});
+dash.onData(() => {
+  const region = dash.params().region || 'Todas';
+  document.querySelectorAll('.pc-filtros button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.region === region)));
+});
+
+redibujar();
+let anchoPrevio = innerWidth;
+addEventListener('resize', () => { if (innerWidth !== anchoPrevio) { anchoPrevio = innerWidth; redibujar(); } });
+</script>
+</body>
+</html>
