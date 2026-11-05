@@ -348,6 +348,7 @@ dash.draw('dia', (sel) => {
 });
 dash.draw('cartera', (el) => {
   el.replaceChildren();
+  const pendientes = [];
   for (const a of activosAl().filter((x) => x.u.grupo === 'Cartera')) {
     const t = crear('article', 'pc-tile');
     const et = crear('div', 'pc-tile-et');
@@ -357,8 +358,10 @@ dash.draw('cartera', (el) => {
     const caja = crear('div', 'pc-spark');
     t.append(et, crear('div', 'pc-tile-val', valor(a.u)), vv, caja);
     el.append(t);
-    spark(caja, a);
+    pendientes.push([caja, a]);
   }
+  /* Se dibujan al final: el ancho de cada tarjeta se conoce con la grilla completa. */
+  pendientes.forEach(([caja, a]) => spark(caja, a));
 });
 dash.draw('puntos', (el) => {
   const i = elegido();
