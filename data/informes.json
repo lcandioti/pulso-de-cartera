@@ -632,6 +632,231 @@
                                     }
                                 ],
                      "limites":  "El informe se generó a la tarde, muy después del horario objetivo de las 9:30, así que el apartado de la noche incluye precios de rueda del viernes hasta las 14 aprox., no cierres. Dólar en Brasil: el tablero toma R$ 5,4621 (-0,3 %) mientras InfoMoney da R$ 5,489 (+0,67 %) al contado; Money Times publicó R$ 5,4518 (-0,65 %), que parece del día anterior. Usé InfoMoney en el texto. Mayorista: Ámbito dice que bajó 50 centavos a $ 1.545,50; Rankia, que no cambió. CCL: $ 1.680,40 en el tablero, $ 1.692,88 en Ámbito y $ 1.678,70 en Rankia. Blue: $ 1.560 en el tablero y $ 1.555 en Ámbito. Riesgo país: 925 (Rava y JP Morgan) y 927 según Cohen. Compras del BCRA acumuladas en 2026: una fuente dice US$ 16.000 millones y otra, cerca de US$ 10.000 millones; no lo usé. La probabilidad de suba de la Fed varía según la hora: CNBC daba 70 % el jueves y Reuters cerca de 80 % tras el payroll. El VIX de 28,18 es el dato del script; CNBC mostraba 26,26 durante la rueda. No confirmé la fecha del balance de PagBank (un medio habla del 16/11 sin año claro), ni la del IPC de INDEC, ni si el martes 10 también es feriado en Argentina. No encontré cierres del DI de hoy ni datos de noticias específicas de PAGS."
+                 },
+                 {
+                     "fecha":  "2026-11-07",
+                     "cierre":  "2026-11-06",
+                     "generado":  "2026-11-07T10:37:11-03:00",
+                     "tono":  "Neutral",
+                     "titular":  "El mundo rebotó el viernes y Brasil lo acompañó, pero Argentina no: el riesgo país cerró la semana en 939, máximo del año",
+                     "resumen":  "El viernes Wall Street recuperó parte de la caída del jueves (S\u0026P 500 +0,3 %, VIX de 28,2 a 25,6) y Brasil lo aprovechó: el Ibovespa subió 1,39 % a 168.499 puntos, EWZ ganó 0,7 % y NU 2,5 %, mientras PAGS bajó 0,8 %. En Argentina pasó lo contrario: el riesgo país subió 14 puntos a 939, el Merval cedió 0,6 % a 84.093 puntos, el AL30D bajó 0,3 % a US$ 51,30 y GGAL perdió 1,5 % en Nueva York. En la semana el riesgo país acumuló una suba de unos 150 puntos (19 %), con el mercado poniendo precio a las dudas sobre el financiamiento de 2027. Este sábado no hay ruedas; lo que viene es el mensaje de Lula del domingo, dos días sin operatoria local en Argentina y una semana con IPC de INDEC y balance de Nu.",
+                     "puntos":  [
+                                    {
+                                        "titulo":  "Argentina se desacopló: no rebotó cuando rebotó el resto",
+                                        "texto":  "Es el dato más importante de la semana. El viernes subieron el S\u0026P 500, el Ibovespa y los emergentes, pero el riesgo país argentino volvió a subir: había bajado hasta 895 en la mañana y terminó en 939. Si el jueves la caída podía atribuirse al shock tecnológico global, el viernes no: interpreto que el mercado está cobrando un riesgo propio, ligado a los vencimientos de 2027 (unos US$ 12.200 millones en Bonares y Globales entre enero y octubre, según GMA Capital citado por La Nación) y a la duda sobre el apoyo de EE. UU. tras la derrota de Trump."
+                                    },
+                                    {
+                                        "titulo":  "En Brasil subió la bolsa, pero el real se llevó parte de la ganancia",
+                                        "texto":  "El Ibovespa ganó 1,39 % y cortó tres semanas de bajas, pero el dólar subió a R$ 5,50, su mayor cierre desde fines de 2025, empujado por el empleo fuerte en EE. UU. Por eso EWZ, que mide en dólares, subió solo 0,7 %, la mitad que el índice local. El mecanismo: más chances de que la Fed suba tasas en diciembre (cerca de 77 % según CME, citado por medios brasileños) encarece el dólar frente a monedas emergentes."
+                                    },
+                                    {
+                                        "titulo":  "El fin de semana define el próximo movimiento en Brasil",
+                                        "texto":  "Lula hablará el domingo 8 por cadena nacional y, según la prensa brasileña, buscaría mostrar compromiso fiscal y podría anunciar medidas o un nuevo ministro de Hacienda. Mi lectura: el mercado ya descuenta un mensaje tranquilizador; lo que movería los juros largos y el real es que haya medidas concretas de gasto. Un discurso solo de intenciones probablemente no alcance para sostener el rebote del viernes."
+                                    }
+                                ],
+                     "noche":  "Desde el cierre del viernes no hubo ruedas ni noticias de mercado relevantes. Los mercados reabren el lunes 9, pero en Argentina ese día es feriado nacional por la visita del papa León XIV y el martes 10 es feriado bancario según el BCRA, así que los ADR y los Globales en Nueva York van a marcar el precio de los activos argentinos al menos el lunes. En Brasil, la atención está en el mensaje de Lula del domingo.",
+                     "activos":  [
+                                     {
+                                         "id":  "EWZ",
+                                         "pais":  "Brasil",
+                                         "nombre":  "EWZ",
+                                         "impacto":  "Favorable",
+                                         "que_paso":  "Subió 0,7 % a US$ 31,98. El Ibovespa ganó 1,39 % a 168.499 puntos y cerró la semana con +0,34 %, pero el dólar subió 0,7 % a R$ 5,50 (dato del tablero; los medios dan entre R$ 5,508 y R$ 5,511).",
+                                         "lectura":  "El rebote fue mayormente arrastre de Wall Street y del empleo de EE. UU.; la diferencia con el índice local la explica la depreciación del real. No hubo novedad fiscal propia el viernes: todo quedó en suspenso hasta el mensaje de Lula.",
+                                         "vigilar":  "Mensaje del domingo 8 y la reacción del DI y del real el lunes. Ata del Copom e IPCA de octubre en la semana (fechas estimadas). Un dólar por encima de R$ 5,55 seguiría restando a EWZ aunque suba la bolsa."
+                                     },
+                                     {
+                                         "id":  "PAGS",
+                                         "pais":  "Brasil",
+                                         "nombre":  "PagBank",
+                                         "impacto":  "Adverso",
+                                         "que_paso":  "Bajó 0,8 % a US$ 7,60, a contramano de EWZ y de NU. No encontré un hecho relevante de la empresa.",
+                                         "lectura":  "No veo una causa propia. Interpreto que la acción sigue castigada por el costo de fondeo con la Selic en 13,75 % y sin bajas a la vista, y por la espera del balance. La divergencia con NU, que subió 2,5 %, sugiere que el mercado distingue entre ambas y no trata a todas las fintech brasileñas igual.",
+                                         "vigilar":  "Balance del tercer trimestre: según CNN Brasil la empresa lo postergó al 16/11, tras el cierre de Nueva York (otro calendario menciona el 11/11). Costo de fondeo, crecimiento del crédito y margen de adquirencia."
+                                     },
+                                     {
+                                         "id":  "NU",
+                                         "pais":  "Brasil",
+                                         "nombre":  "Nu Holdings",
+                                         "impacto":  "Favorable",
+                                         "que_paso":  "Subió 2,5 % a US$ 12,03 y recuperó lo perdido el jueves. No hubo noticia propia relevante; el jueves había suspendido temporalmente operaciones con cripto por una falla de un proveedor.",
+                                         "lectura":  "Se movió como acción de crecimiento: rebotó junto con el Nasdaq (+1,1 %). Llega al balance con expectativas altas: Safra proyecta una ganancia cercana a US$ 1.078 millones en el trimestre, 38 % más que un año atrás.",
+                                         "vigilar":  "Balance del 12/11 (fecha estimada por LSEG, no confirmada por la empresa): mora, margen financiero y México. Una mora peor a la esperada cambiaría la lectura favorable."
+                                     },
+                                     {
+                                         "id":  "MERVAL",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Merval",
+                                         "impacto":  "Adverso",
+                                         "que_paso":  "Bajó 0,6 % a 84.093,10 puntos según Rava, en una rueda sin liquidación de contado por el Día del Bancario. En Nueva York GGAL cayó 1,5 % a US$ 29,44, YPF quedó en US$ 38,66 según el tablero y el ETF ARGT bajó 0,5 %.",
+                                         "lectura":  "La señal es que no acompañó el rebote global: el S\u0026P 500 subió 0,3 % y el Ibovespa 1,4 %. Bancos como Macro y Galicia lideraron las bajas, lo que interpreto como sensibilidad al riesgo soberano, porque los bancos tienen muchos bonos en cartera. En la semana YPF perdió cerca de 18 % y GGAL más de 8 %, según Fiwind citado por Ámbito.",
+                                         "vigilar":  "El lunes 9 opera solo Nueva York: los ADR anticipan el humor local. Si los ADR bancarios siguen cayendo con Wall Street en alza, se confirmaría que el problema es el riesgo país."
+                                     },
+                                     {
+                                         "id":  "TC",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Tipo de cambio",
+                                         "impacto":  "Neutral",
+                                         "que_paso":  "Con el Día del Bancario no hubo operatoria normal de contado. Ámbito y La Nación informan el mayorista en $ 1.545,50, sin cambios (el tablero conserva el dato del jueves). El blue cerró en $ 1.555 y el CCL figura en $ 1.664,90 en el tablero, contra $ 1.678 a $ 1.682 en los medios. No hubo dato de compras del BCRA ni de reservas del viernes.",
+                                         "lectura":  "El dólar sigue tranquilo y el mayorista está unos 26 % debajo del techo de la banda, según La Nación. La tensión sigue en los bonos, no en el peso. Mi lectura: mientras el CCL no se despegue, el mercado no está buscando cobertura cambiaria masiva.",
+                                         "vigilar":  "Cuatro días seguidos sin operatoria bancaria normal (viernes 6 a martes 10). El miércoles 11 se verá si el BCRA retoma compras; un CCL arriba de $ 1.700 indicaría que el estrés de los bonos pasa al dólar."
+                                     },
+                                     {
+                                         "id":  "BONOS",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Bonos y riesgo país",
+                                         "impacto":  "Adverso",
+                                         "que_paso":  "El riesgo país subió 14 puntos a 939, máximo del año y nivel más alto en más de un año; durante la mañana había bajado a 895. El AL30D bajó 0,3 % a US$ 51,30 según Rava. Los Globales operaron mixtos: el GD46 llegó a subir 1,5 % y el GD35 bajó 0,2 % (precios de rueda, según La Nación). En la semana el AL30D perdió alrededor de 4 %.",
+                                         "lectura":  "El Treasury a 10 años casi no se movió (4,86 % en el tablero), así que la suba del spread es riesgo argentino puro. Hecho: Latin Securities, citado por Ámbito, estima vencimientos de 2027 por unos US$ 25.000 millones con necesidades no cubiertas de US$ 5.000 a 10.000 millones. Interpreto que, con rendimientos de 16 % o más, el mercado descuenta que esa brecha no se puede cubrir emitiendo deuda nueva.",
+                                         "vigilar":  "Cualquier anuncio de financiamiento (repo con bancos, organismos o apoyo del Tesoro de EE. UU.). Una vuelta del riesgo país debajo de 850 cambiaría mi lectura; arriba de 1.000 confirmaría que el mercado se prepara para un escenario de reestructuración."
+                                     }
+                                 ],
+                     "noticias":  [
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Bonos, riesgo país, AL30D",
+                                          "impacto":  "Adverso",
+                                          "titulo":  "El riesgo país cerró la semana en 939, su máximo del año, tras borrar el rebote de la mañana",
+                                          "lectura":  "La nota ubica el origen en la derrota de Trump y las dudas sobre el apoyo de EE. UU. en 2027. Para la cartera, confirma que los bonos son hoy el activo más expuesto.",
+                                          "medio":  "Ámbito",
+                                          "url":  "https://ambito.com/finanzas/los-bonos-se-someten-la-ultima-rueda-semanal-un-riesgo-pais-que-alcanza-los-900-puntos-n6342318"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Bonos, Merval, tipo de cambio",
+                                          "impacto":  "Adverso",
+                                          "titulo":  "Los bonos no sostuvieron la mejora y el riesgo país terminó cerca de 940 puntos",
+                                          "lectura":  "Aporta el detalle de los vencimientos de 2027 (unos US$ 12.200 millones en enero, julio y octubre). Ese calendario es lo que el mercado está mirando.",
+                                          "medio":  "La Nación",
+                                          "url":  "https://www.lanacion.com.ar/economia/el-riesgo-pais-cae-por-debajo-de-los-900-puntos-a-partir-del-rebote-de-los-bonos-nid06112026/"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "EWZ, PAGS, NU",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "Lula dará un mensaje por cadena nacional el domingo para calmar al mercado con señales fiscales",
+                                          "lectura":  "Es el principal catalizador de la semana para el real y los juros. Si trae medidas concretas, podría bajar el costo de capital de las financieras; si no, el rebote del viernes queda expuesto.",
+                                          "medio":  "BP Money",
+                                          "url":  "https://bpmoney.com.br/politica/lula-pronunciamento-domingo-ajuste-fiscal-acalmar-mercado/"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "EWZ",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "El Ibovespa cortó tres semanas de bajas, pero el dólar llegó a R$ 5,50 tras el empleo de EE. UU.",
+                                          "lectura":  "La bolsa local y la moneda fueron en sentidos opuestos, y eso le restó la mitad de la suba a EWZ en dólares.",
+                                          "medio":  "Times Brasil",
+                                          "url":  "https://timesbrasil.com.br/investimentos/bolsa/ibovespa-fecha-semana-em-alta-de-034-aos-168-mil-pontos-dolar-sobe-a-r-550-apos-payroll-dos-eua/"
+                                      },
+                                      {
+                                          "region":  "Global",
+                                          "activos":  "EWZ, NU, PAGS, Merval",
+                                          "impacto":  "Favorable",
+                                          "titulo":  "Las tecnológicas rebotaron el viernes, aunque Wall Street cerró la semana en baja",
+                                          "lectura":  "El rebote del Nasdaq ayudó a NU; el S\u0026P 500 perdió 2,7 % en la semana. La aversión al riesgo bajó, pero no desapareció.",
+                                          "medio":  "Sharecast",
+                                          "url":  "https://www.sharecast.com/news/market-report-us-close/us-close-tech-stocks-rebound-after-sell-off-dow-slips-after-jobs-report--24081872.html"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "PAGS",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "PagBank pasó la publicación de su balance del tercer trimestre a noviembre",
+                                          "lectura":  "La fecha informada es el 16/11, después del cierre de Nueva York. Hasta entonces la acción queda sin un catalizador propio.",
+                                          "medio":  "CNN Brasil",
+                                          "url":  "https://www.cnnbrasil.com.br/economia/money/negocios/pagbank-adia-para-novembro-divulgacao-do-balanco-do-terceiro-trimestre/"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "NU",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "Safra anticipa un trimestre de ganancias fuertes para Nubank, con desafíos en los bancos digitales",
+                                          "lectura":  "Las expectativas altas suben la vara para el balance del 12/11: un resultado apenas en línea podría no alcanzar.",
+                                          "medio":  "Safra (O Especialista)",
+                                          "url":  "https://oespecialista.safra.com.br/bancos-digitais-brasileiros-3t26-nubank-inter-analise-safra/"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Tipo de cambio, reservas",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "El dólar cerró la semana estable y el blue terminó en $ 1.555",
+                                          "lectura":  "El mercado cambiario siguió sin reflejar el estrés de los bonos. Con el feriado bancario, no hubo dato nuevo de compras del BCRA.",
+                                          "medio":  "Ámbito",
+                                          "url":  "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-6-noviembre-n6342535"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Merval, bonos, tipo de cambio",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "Feriados por la visita del papa y feriado bancario: bancos cerrados del 6 al 10 de noviembre",
+                                          "lectura":  "Con cuatro días sin operatoria normal, el precio de los activos argentinos lo van a fijar los ADR y los Globales en Nueva York.",
+                                          "medio":  "El Economista",
+                                          "url":  "https://eleconomista.com.ar/finanzas/cinco-dias-bancos-noviembre-conviene-resolver-antes-6-sigue-funcionando-n98616"
+                                      }
+                                  ],
+                     "agenda":  [
+                                    {
+                                        "fecha":  "2026-11-08",
+                                        "evento":  "Mensaje de Lula por cadena nacional",
+                                        "activos":  "EWZ, PAGS, NU",
+                                        "por_que":  "Se espera una señal de compromiso fiscal y quizás medidas o un nuevo ministro de Hacienda; define la apertura del lunes."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-09",
+                                        "evento":  "Feriado nacional en Argentina por la visita del papa León XIV; Nueva York abierto",
+                                        "activos":  "Merval, bonos, GGAL, YPF",
+                                        "por_que":  "Los ADR y los Globales marcan el precio sin rueda local."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-10",
+                                        "evento":  "Feriado bancario en Argentina; ata del Copom (fecha estimada)",
+                                        "activos":  "Tipo de cambio, EWZ, PAGS, NU",
+                                        "por_que":  "Sin operatoria cambiaria normal en Argentina. En Brasil, la ata puede aclarar cuánto se extiende la pausa en 13,75 %."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-10",
+                                        "evento":  "IPCA de octubre en Brasil (fecha estimada)",
+                                        "activos":  "EWZ, PAGS, NU",
+                                        "por_que":  "Una inflación más baja daría margen para hablar de recortes de la Selic en 2027."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-12",
+                                        "evento":  "IPC de octubre (INDEC), 16 h",
+                                        "activos":  "Merval, bonos, tipo de cambio",
+                                        "por_que":  "Las consultoras esperan entre 1,7 % y 2,1 %; un dato alto complicaría la baja de tasas en pesos."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-12",
+                                        "evento":  "Balance del tercer trimestre de Nu, tras el cierre (fecha estimada)",
+                                        "activos":  "NU",
+                                        "por_que":  "Mora, margen y México; Safra espera una ganancia cercana a US$ 1.078 millones."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-16",
+                                        "evento":  "Balance del tercer trimestre de PagBank, tras el cierre (informado por CNN Brasil; otro calendario cita el 11/11)",
+                                        "activos":  "PAGS",
+                                        "por_que":  "Costo de fondeo y crecimiento del crédito con la Selic en pausa."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-01",
+                                        "evento":  "Pagos al FMI de diciembre (fecha estimada dentro del mes)",
+                                        "activos":  "Bonos, reservas",
+                                        "por_que":  "Otra salida de reservas antes de los vencimientos de enero."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-08",
+                                        "evento":  "Última reunión del Copom del año (8 y 9 de diciembre); Investor Day de Nu (fecha estimada)",
+                                        "activos":  "EWZ, PAGS, NU",
+                                        "por_que":  "Define si sigue la pausa en 13,75 %."
+                                    },
+                                    {
+                                        "fecha":  "2027-01-09",
+                                        "evento":  "Vencimiento de Bonares y Globales con privados (fecha estimada)",
+                                        "activos":  "AL30D, Globales, riesgo país",
+                                        "por_que":  "Primer pago grande de 2027, con rendimientos que hoy cierran la refinanciación en el mercado."
+                                    }
+                                ],
+                     "limites":  "El informe se generó pasadas las 10:30, después del horario objetivo de las 9:30. Es sábado: no hubo ruedas desde el cierre del viernes y no informo movimientos de precios del fin de semana. Merval (84.093,10) y AL30D (US$ 51,30) salen de Rava; La Nación daba 84.052 durante la rueda. El viernes no hubo liquidación de contado por el Día del Bancario: los medios igual informan el mayorista en $ 1.545,50, y el tablero conserva el del jueves. CCL: $ 1.664,90 en el tablero, $ 1.678,72 en Ámbito y $ 1.682,24 en La Nación; MEP entre $ 1.578,78 y $ 1.583,82. No hubo dato de compras del BCRA ni de reservas del viernes. Dólar en Brasil: el tablero da R$ 5,5013; los medios, entre R$ 5,508 y R$ 5,511. Treasury a 10 años: el tablero da 4,86 % (+2 pb); 247wallst informó 4,84 % en un cierre posterior. YPF figura sin cambios en el tablero (US$ 38,66) y no encontré su variación del viernes en otra fuente. Los movimientos de Globales y ADR del viernes son de rueda, no de cierre. Suba semanal del riesgo país: Ámbito dice 149 puntos y La Nación 152. No encontré cierres del DI del viernes. Fechas no confirmadas: ata del Copom e IPCA (10/11, estimadas), balance de Nu (12/11, estimación de LSEG) y de PagBank (16/11 según CNN Brasil, 11/11 según otro calendario). No pude confirmar si BYMA opera el martes 10 (feriado bancario). El feriado del lunes 9 lo tomé de medios que citan el Decreto 1103/2026, sin leer el Boletín Oficial. El Intransigente no se pudo leer."
                  }
              ]
 }
