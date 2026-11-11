@@ -1040,6 +1040,207 @@
                                     }
                                 ],
                      "limites":  "El informe se generó cerca del mediodía, después del horario objetivo de las 9:30. Es lunes con feriado nacional en Argentina: no hubo rueda local desde el viernes y todos los precios del tablero son del cierre del viernes 6 (Merval 84.093,10 y AL30D US$ 51,30 de Rava; sin nuevos cierres manuales). No hubo informe el domingo 8. Las cifras de esta mañana en Brasil son de apertura, no de cierre: CNN Brasil daba +0,47 % a 169.288 puntos a las 10:11 y NC News +0,65 % a 169.599 a las 10:15. El Brent (cerca de US$ 94,41, -4 %) y la baja de los Treasuries salen solo del titular de Enfoque, que no se pudo leer; el tablero muestra el Brent del viernes en US$ 98,32. SpaceMoney no se pudo leer. Focus: tomé Selic 2026 y 2027 de NC News; las cifras de IPCA, dólar y PIB del Focus aparecieron en resúmenes de búsqueda y no las verifiqué. Una página de referencia mencionaba Selic en 14,25 %; usé 13,75 %, que confirman O Globo y los informes previos. Ámbito da vencimientos de 2027 por US$ 22.000 millones en el cuerpo y casi US$ 25.000 millones en el subtítulo. No pude confirmar el estado del servicio cripto de Nubank ni versiones sobre cambios en su equipo directivo. Fechas no confirmadas: ata del Copom (10/11), IPCA (12/11, según un calendario que la marca como previsión), balance de Nu (12/11) y de PagBank (16/11 u 11/11). Sin datos de los ADR y Globales de hoy, porque Nueva York recién abría al generar el informe."
+                 },
+                 {
+                     "fecha":  "2026-11-11",
+                     "cierre":  "2026-11-10",
+                     "generado":  "2026-11-11T09:55:00-03:00",
+                     "tono":  "Neutral",
+                     "titular":  "La inflación de EE. UU. devolvió a Brasil lo que había ganado el lunes, mientras los bonos argentinos se alejan del máximo de riesgo país",
+                     "resumen":  "Desde el cierre del viernes hubo dos ruedas en Nueva York con signo opuesto. El lunes las acciones brasileñas subieron con fuerza (EWZ +2,0 %, PAGS +4,1 %, NU +2,7 %), pero el martes un IPC de EE. UU. por encima de lo esperado empujó el rendimiento del Treasury a 10 años a 4,98 % y borró buena parte de esa suba: EWZ cerró en US$ 32,15 (-1,4 %), PAGS en US$ 7,68 (-2,9 %) y NU en US$ 12,08 (-2,3 %), con el dólar en Brasil en R$ 5,58, su nivel más alto en unos 15 meses. En Argentina no hubo rueda local desde el viernes, pero en Nueva York el riesgo país bajó dos días seguidos, de 939 a 860 puntos según el tablero, aunque los ADR cayeron el martes (GGAL -1,6 %, YPF -2,1 %). Neto, la cartera queda prácticamente donde estaba el viernes, pero con un contexto global más exigente.",
+                     "puntos":  [
+                                    {
+                                        "titulo":  "El IPC de EE. UU. pone en precio una suba de tasas de la Fed en diciembre",
+                                        "texto":  "Hecho: el IPC de octubre subió 0,4 % mensual y el núcleo 0,3 %, contra 0,2 % esperado; la tasa a 2 años saltó 17 puntos básicos y los futuros pasaron a dar por hecha una suba de la Fed en diciembre, con algunas apuestas a medio punto tras los dichos de Waller (Avalon Capital Research y KuCoin). El mecanismo: tasas más altas en EE. UU. fortalecen el dólar global y suben el costo de capital de los emergentes, por eso el golpe se vio más en el real y en EWZ que en el S\u0026P 500 (-0,4 %)."
+                                    },
+                                    {
+                                        "titulo":  "Brasil cayó por el exterior, no por una noticia local nueva",
+                                        "texto":  "El Ibovespa bajó 0,52 % a 171.337 puntos, pero EWZ cayó 1,4 % porque al índice se sumó la suba de 1,3 % del dólar (dato del script; los medios hablan de +1,46 % a R$ 5,586). Interpreto que la diferencia entre EWZ y el Ibovespa es casi toda moneda. Para PAGS y NU, un real débil reduce lo que valen en dólares sus ganancias en reales y un Fed más duro aleja la posibilidad de que la Selic, hoy en 13,75 %, vuelva a bajar pronto."
+                                    },
+                                    {
+                                        "titulo":  "Los bonos argentinos recuperan algo de terreno sin rueda local",
+                                        "texto":  "El riesgo país bajó de 939 (viernes) a 873 el lunes y a 860 el martes según el tablero; Infobae y la tabla de Rava lo dan en 853, y El Intransigente en 860. Los Globales subieron en Nueva York mientras la plaza local estuvo cerrada. Mi lectura: es un rebote desde el máximo del año más que un cambio de tendencia, porque sigue la duda sobre el financiamiento posterior a las elecciones de 2027 y el contexto de tasas en EE. UU. empeoró el mismo martes."
+                                    }
+                                ],
+                     "noche":  "Después del cierre del martes no encontré noticias relevantes propias de las empresas de la cartera. Hoy reabre el mercado local argentino tras feriados y la falta de actividad del martes (Infobae lo vincula con la visita del Papa León XIV): es la primera rueda local desde el viernes 6 y se verá cómo ajustan Merval, Bonares y dólar. Las cotizaciones del dólar publicadas esta mañana (mayorista $ 1.545,50, blue $ 1.555, según Ámbito y C5N) repiten valores del último día hábil y todavía no reflejan operatoria nueva.",
+                     "activos":  [
+                                     {
+                                         "id":  "EWZ",
+                                         "pais":  "Brasil",
+                                         "nombre":  "EWZ",
+                                         "impacto":  "Adverso",
+                                         "que_paso":  "Lunes +2,0 % a US$ 32,61 y martes -1,4 % a US$ 32,15. El Ibovespa cerró el martes en 171.337 puntos (-0,52 %) y el dólar en R$ 5,58, máximo en unos 15 meses según varios medios.",
+                                         "lectura":  "La caída del martes fue global: IPC de EE. UU. alto, Treasuries en suba y dólar fuerte. Como EWZ cotiza en dólares, sufrió el doble efecto de bolsa y moneda. Interpreto que el riesgo fiscal local sigue de fondo, porque el real fue de las monedas que más se movieron.",
+                                         "vigilar":  "El IPCA de octubre (12/11, fecha estimada). Un dólar arriba de R$ 5,60 seguiría restando a EWZ; volver debajo de R$ 5,50 indicaría que el golpe del IPC de EE. UU. fue transitorio."
+                                     },
+                                     {
+                                         "id":  "PAGS",
+                                         "pais":  "Brasil",
+                                         "nombre":  "PagBank",
+                                         "impacto":  "Adverso",
+                                         "que_paso":  "Lunes +4,1 % a US$ 7,91 y martes -2,9 % a US$ 7,68. No encontré noticias propias de la empresa. La compañía había movido la presentación de su balance del 10/11 al 16/11, tras el cierre.",
+                                         "lectura":  "Se movió como una versión amplificada de EWZ, algo habitual en una acción chica y sensible a tasas. Mi lectura: un Fed más duro aleja recortes de la Selic y mantiene caro el fondeo, que es el punto débil del negocio de crédito de PagBank.",
+                                         "vigilar":  "Balance del tercer trimestre el 16/11: costo de fondeo, crecimiento del crédito y margen de adquirencia."
+                                     },
+                                     {
+                                         "id":  "NU",
+                                         "pais":  "Brasil",
+                                         "nombre":  "Nu Holdings",
+                                         "impacto":  "Adverso",
+                                         "que_paso":  "Lunes +2,7 % a US$ 12,36 y martes -2,3 % a US$ 12,08. Sin noticias propias confirmadas; el balance del tercer trimestre se espera para mañana jueves 12 tras el cierre.",
+                                         "lectura":  "La baja del martes acompañó al mercado. Según Finsiders, LSEG espera una ganancia cercana a US$ 1.090 millones y analistas anticipan más provisiones que en el trimestre anterior. Interpreto que el mercado mirará más la mora que la ganancia.",
+                                         "vigilar":  "Balance del 12/11: mora, margen financiero y México. Mora por encima de lo esperado cambiaría la lectura; una mora estable con real débil sería un dato bueno."
+                                     },
+                                     {
+                                         "id":  "MERVAL",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Merval",
+                                         "impacto":  "Neutral",
+                                         "que_paso":  "Sin rueda local desde el viernes, cuando cerró en 84.093 puntos (Rava). En Nueva York, GGAL cerró el martes en US$ 29,91 (-1,6 %) e YPF en US$ 37,28 (-2,1 %); el ETF ARGT bajó 2,1 %.",
+                                         "lectura":  "Los ADR cayeron más que el S\u0026P 500 aun con el riesgo país en baja, una divergencia. Interpreto que pesó más el contexto global de tasas que la mejora de los bonos; en YPF no ayudó el Brent en baja (US$ 91,49).",
+                                         "vigilar":  "La reapertura de hoy. Si el Merval acompaña la baja del riesgo país, se confirmaría que el rebote de los bonos es genuino."
+                                     },
+                                     {
+                                         "id":  "TC",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Tipo de cambio",
+                                         "impacto":  "Neutral",
+                                         "que_paso":  "Sin operatoria local nueva desde el jueves 5: mayorista $ 1.545,40, CCL $ 1.664,90 y blue $ 1.555 según el tablero.",
+                                         "lectura":  "No hubo novedad. Ámbito informa que el BCRA acumula compras por unos US$ 15.963 millones en 2026 y que no compró al comienzo de noviembre. Mi lectura: con un dólar global más fuerte, el mercado mirará si el peso aguanta sin intervención.",
+                                         "vigilar":  "Hoy, primer día hábil: si el BCRA retoma compras y si el CCL se mantiene debajo de $ 1.700."
+                                     },
+                                     {
+                                         "id":  "BONOS",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Bonos y riesgo país",
+                                         "impacto":  "Favorable",
+                                         "que_paso":  "Riesgo país 873 el lunes y 860 el martes según el tablero (Infobae y Rava: 853), desde el máximo anual de 939 del viernes. El AL30D sigue con el último cierre local del viernes, US$ 51,30.",
+                                         "lectura":  "Rebote técnico desde el máximo, con Globales en alza en Nueva York. Interpreto que no cambió el diagnóstico: el mercado sigue cobrando caro el riesgo posterior a 2027, y Treasuries cerca de 5 % encarecen cualquier refinanciación.",
+                                         "vigilar":  "Cómo ajustan hoy los Bonares en la plaza local. Bajar de 850 de forma sostenida cambiaría la lectura; volver arriba de 900 indicaría que el rebote fue solo eso."
+                                     }
+                                 ],
+                     "noticias":  [
+                                      {
+                                          "region":  "Global",
+                                          "activos":  "EWZ, PAGS, NU, bonos",
+                                          "impacto":  "Adverso",
+                                          "titulo":  "Inflación de EE. UU. por encima de lo esperado dispara la tasa a 2 años y las apuestas de suba de la Fed",
+                                          "lectura":  "Es el factor que explica el martes: dólar fuerte y tasas altas encarecen el capital para emergentes, con Brasil como el más expuesto de la cartera.",
+                                          "medio":  "Avalon Capital Research",
+                                          "url":  "https://avaloncapitalresearch.substack.com/p/closing-bell-stocks-fall-as-hotter"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "EWZ, PAGS, NU",
+                                          "impacto":  "Adverso",
+                                          "titulo":  "El dólar en Brasil cierra en R$ 5,58, su nivel más alto en unos 15 meses",
+                                          "lectura":  "La suba del dólar explica la mayor parte de la caída de EWZ y reduce el valor en dólares de las ganancias de PAGS y NU.",
+                                          "medio":  "Imirante",
+                                          "url":  "https://imirante.com/noticias/brasil/2026/11/10/dolar-sobe-146-fecha-maior-valor-15-meses"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "EWZ",
+                                          "impacto":  "Adverso",
+                                          "titulo":  "El Ibovespa baja 0,52 % con el IPC de EE. UU. y la ata del Copom en el radar",
+                                          "lectura":  "La bolsa local cayó menos que EWZ: la diferencia es moneda, no acciones.",
+                                          "medio":  "Metrópoles",
+                                          "url":  "https://www.metropoles.com/brasil/ibovespa-cai-052-com-inflacao-dos-eua-e-ata-do-copom-no-radar"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Bonos, riesgo país",
+                                          "impacto":  "Favorable",
+                                          "titulo":  "Los bonos suben y el riesgo país baja a 853 puntos con la plaza local cerrada",
+                                          "lectura":  "Alivio parcial desde el máximo de 939, pero sin rueda local; hoy se verá si los Bonares acompañan.",
+                                          "medio":  "Infobae",
+                                          "url":  "https://www.infobae.com/economia/2026/11/10/los-bonos-argentinos-operan-con-una-leve-suba-y-el-riesgo-pais-vuelve-a-ceder/"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Bonos, riesgo país",
+                                          "impacto":  "Favorable",
+                                          "titulo":  "Segunda baja seguida del riesgo país, que cierra en 860 puntos",
+                                          "lectura":  "Confirma el rebote, con una cifra distinta a la de Infobae; el tablero usa 860.",
+                                          "medio":  "El Intransigente",
+                                          "url":  "https://elintransigente.com/2026/11/10/riesgo-pais-argentina-cerro-860-puntos-completo-segunda-baja-consecutiva/"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "NU, PAGS",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "Las fintechs brasileñas ganarían más en el tercer trimestre, pero el mercado ya ve problemas para 2027",
+                                          "lectura":  "Pone la vara alta para el balance de Nu del jueves: el foco estará en provisiones y mora más que en la ganancia.",
+                                          "medio":  "Finsiders Brasil",
+                                          "url":  "https://finsidersbrasil.com.br/noticias-sobre-fintechs/resultados-financeiros/fintechs-vao-lucrar-mais-no-3t26-mas-mercado-ja-ve-problemas-para-2027/"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Tipo de cambio, reservas",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "El dólar mayorista arrancó noviembre cerca de $ 1.550 y el BCRA frenó sus compras",
+                                          "lectura":  "Sin compras del BCRA, las reservas dependen más del financiamiento externo justo antes de los vencimientos de enero.",
+                                          "medio":  "Ámbito",
+                                          "url":  "https://www.ambito.com/finanzas/dolar-el-peso-volvio-apreciarse-octubre-y-el-mercado-sigue-cerca-las-compras-reservas-del-bcra-n6340396"
+                                      }
+                                  ],
+                     "agenda":  [
+                                    {
+                                        "fecha":  "2026-11-11",
+                                        "evento":  "Reapertura del mercado local argentino",
+                                        "activos":  "Merval, bonos, tipo de cambio",
+                                        "por_que":  "Primera rueda local desde el viernes 6; se verá si los Bonares acompañan la baja del riesgo país y si el BCRA vuelve a comprar."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-12",
+                                        "evento":  "IPC de octubre (INDEC), 16 h",
+                                        "activos":  "Merval, bonos, tipo de cambio",
+                                        "por_que":  "Las consultoras esperaban entre 1,7 % y 2,1 %; un dato alto complicaría la baja de tasas en pesos."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-12",
+                                        "evento":  "IPCA de octubre en Brasil (fecha estimada)",
+                                        "activos":  "EWZ, PAGS, NU",
+                                        "por_que":  "Una inflación baja ayudaría a contrarrestar la presión del dólar y reabriría la discusión de recortes de la Selic en 2027."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-12",
+                                        "evento":  "Balance del tercer trimestre de Nu, tras el cierre (fecha estimada)",
+                                        "activos":  "NU",
+                                        "por_que":  "Mora, provisiones, margen y México; LSEG espera una ganancia cercana a US$ 1.090 millones."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-16",
+                                        "evento":  "Balance del tercer trimestre de PagBank, tras el cierre",
+                                        "activos":  "PAGS",
+                                        "por_que":  "La empresa movió la fecha del 10/11 al 16/11. Costo de fondeo y crecimiento del crédito con la Selic en pausa."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-01",
+                                        "evento":  "Pagos al FMI de diciembre (fecha estimada dentro del mes)",
+                                        "activos":  "Bonos, reservas",
+                                        "por_que":  "Otra salida de reservas antes de los vencimientos de enero."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-08",
+                                        "evento":  "Última reunión del Copom del año (8 y 9 de diciembre)",
+                                        "activos":  "EWZ, PAGS, NU",
+                                        "por_que":  "Define si sigue la pausa en 13,75 %; un Fed que sube tasas hace menos probable un recorte."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-09",
+                                        "evento":  "Decisión de la Fed de diciembre (fecha estimada)",
+                                        "activos":  "EWZ, PAGS, NU, bonos",
+                                        "por_que":  "El mercado ya descuenta una suba; medio punto sería un golpe adicional para emergentes."
+                                    },
+                                    {
+                                        "fecha":  "2027-01-09",
+                                        "evento":  "Vencimiento de Bonares y Globales, unos US$ 4.400 millones",
+                                        "activos":  "AL30D, Globales, riesgo país",
+                                        "por_que":  "Primer pago grande de 2027; el mercado lo considera cubierto, según el bajo rendimiento de los bonos cortos."
+                                    }
+                                ],
+                     "limites":  "El informe se generó cerca de las 10, después del horario objetivo de las 9:30. No hubo informe el martes 10, así que este cubre las ruedas del lunes 9 y martes 10. No hubo rueda local argentina desde el viernes 6: Merval (84.093,10) y AL30D (US$ 51,30) son cierres del viernes según Rava, sin datos manuales nuevos; el mayorista del tablero es del jueves 5. El riesgo país difiere entre fuentes para el martes: 860 en el tablero y El Intransigente, 853 en Infobae y en la tabla de Rava. La suba del dólar en Brasil es 1,3 % según el script y 1,46 % o 1,48 % según los medios, por diferencias en la referencia de cierre. Las cifras del IPC de EE. UU., la tasa a 2 años y las apuestas sobre la Fed salen de un blog de mercado (Avalon Capital Research) y de notas de KuCoin, no de la BLS ni de la Fed; el S\u0026P 500 y el Treasury a 10 años del tablero salen del script. No leí completa la ata del Copom del martes. No encontré noticias propias de PAGS ni de NU en estas dos ruedas, ni el dato de compras del BCRA de los últimos días. La fecha de la Fed de diciembre y la del balance de Nu son estimadas; la de PagBank (16/11) surge de un comunicado de la empresa citado en resultados de búsqueda."
                  }
              ]
 }
