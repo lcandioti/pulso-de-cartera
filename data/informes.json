@@ -1241,6 +1241,216 @@
                                     }
                                 ],
                      "limites":  "El informe se generó cerca de las 10, después del horario objetivo de las 9:30. No hubo informe el martes 10, así que este cubre las ruedas del lunes 9 y martes 10. No hubo rueda local argentina desde el viernes 6: Merval (84.093,10) y AL30D (US$ 51,30) son cierres del viernes según Rava, sin datos manuales nuevos; el mayorista del tablero es del jueves 5. El riesgo país difiere entre fuentes para el martes: 860 en el tablero y El Intransigente, 853 en Infobae y en la tabla de Rava. La suba del dólar en Brasil es 1,3 % según el script y 1,46 % o 1,48 % según los medios, por diferencias en la referencia de cierre. Las cifras del IPC de EE. UU., la tasa a 2 años y las apuestas sobre la Fed salen de un blog de mercado (Avalon Capital Research) y de notas de KuCoin, no de la BLS ni de la Fed; el S\u0026P 500 y el Treasury a 10 años del tablero salen del script. No leí completa la ata del Copom del martes. No encontré noticias propias de PAGS ni de NU en estas dos ruedas, ni el dato de compras del BCRA de los últimos días. La fecha de la Fed de diciembre y la del balance de Nu son estimadas; la de PagBank (16/11) surge de un comunicado de la empresa citado en resultados de búsqueda."
+                 },
+                 {
+                     "fecha":  "2026-11-12",
+                     "cierre":  "2026-11-11",
+                     "generado":  "2026-11-12T10:25:00-03:00",
+                     "tono":  "Favorable",
+                     "titular":  "El plan fiscal de Lula y el rebote de Wall Street le dieron aire a Brasil, mientras Argentina volvió de cinco días sin rueda sin encontrar piso",
+                     "resumen":  "El miércoles las tres posiciones brasileñas recuperaron lo perdido el martes: EWZ subió 0,9 % a US$ 32,44, PAGS 3,4 % a US$ 7,94 y NU 2,0 % a US$ 12,32, con el Ibovespa en 172.060 puntos (+0,42 %) y el dólar en R$ 5,56 (-0,4 %). Ayudaron dos cosas: el anuncio de un paquete fiscal que el gobierno estima en R$ 50.000 a 60.000 millones para 2027 y un Nasdaq que subió 1,6 % por resultados de tecnología. En Argentina, la primera rueda local desde el viernes dejó al Merval en 83.440 puntos (-0,8 %, Rava), el riesgo país casi quieto en 852 y el AL30D en US$ 51,52 (+0,4 %). Esta mañana el IPCA de octubre de Brasil salió en 0,14 %, muy por debajo de lo esperado, un dato que favorece a la parte brasileña de la cartera.",
+                     "puntos":  [
+                                    {
+                                        "titulo":  "Brasil subió por una razón propia, no solo por Wall Street",
+                                        "texto":  "Hecho: el ministro de Planificación, Bruno Moretti, dijo que el proyecto de ley complementaria enviado al Congreso tendría un efecto de R$ 50.000 a 60.000 millones en 2027, con un límite de 2 % real al crecimiento del gasto, por debajo del 2,5 % del marco fiscal (O Tempo, Itabira Online). El real se apreció aun con el índice dólar en suba de 0,67 %, lo que interpreto como un factor local: el mercado le asigna algo de valor al plan, aunque un economista citado por O Tempo dice que los inversores esperan el diseño final antes de tomar posiciones grandes."
+                                    },
+                                    {
+                                        "titulo":  "PAGS y NU subieron más que EWZ por sensibilidad a tasas",
+                                        "texto":  "PAGS (+3,4 %) y NU (+2,0 %) superaron a EWZ (+0,9 %). Mi lectura: son las acciones de la cartera más sensibles al costo de fondeo, y tanto un ajuste fiscal como una inflación más baja (el IPCA de octubre fue 0,14 % contra una mediana de 0,25 % en Projeções Broadcast, según InfoMoney) acercan la posibilidad de que la Selic, hoy en 13,75 %, baje en 2027. Lo que cambiaría esta lectura: que el Congreso diluya el paquete o que la Fed endurezca más de lo previsto en diciembre."
+                                    },
+                                    {
+                                        "titulo":  "Argentina reabrió con caída en pesos y crédito sin dirección",
+                                        "texto":  "El Merval bajó 0,8 % en la reapertura y, según Infobae, acumula cuatro ruedas en baja y su menor valor en dólares desde el 24 de octubre; parte de la baja es la puesta al día con la caída de los ADR del martes. Los bonos dieron señales mixtas: Infobae informa subas de hasta 3,2 % en Globales largos y El Cronista, bajas; el riesgo país quedó en 852. Lo que el mercado descuenta, a mi entender, es incertidumbre política hacia 2027: Gustavo Ber estima en torno a 50 % las chances implícitas de reelección (Infobae)."
+                                    }
+                                ],
+                     "noche":  "Esta mañana, a las 9, el IBGE publicó el IPCA de octubre: 0,14 % mensual (0,82 % en septiembre), debajo de todo el rango de estimaciones (0,18 % a 0,40 %), con 4,63 % en 12 meses; la baja vino de energía eléctrica y pasajes aéreos, mientras los alimentos se aceleraron a 1,04 % (InfoMoney, O Tempo). Después del cierre de Nueva York, Nvidia cayó cerca de 8 % en operaciones fuera de hora por informes sobre su CEO (Economía Responsable), lo que puede pesar en el ánimo tecnológico de hoy. Hoy, después del cierre, publica Nu su balance del tercer trimestre, y a las 16 el INDEC da el IPC de octubre. No encontré novedades de PagBank ni del BCRA después del cierre.",
+                     "activos":  [
+                                     {
+                                         "id":  "EWZ",
+                                         "pais":  "Brasil",
+                                         "nombre":  "EWZ",
+                                         "impacto":  "Favorable",
+                                         "que_paso":  "Subió 0,9 % a US$ 32,44 el miércoles. Ibovespa +0,42 % a 172.060 puntos y dólar -0,4 % a R$ 5,56 (PTAX R$ 5,5606 en el script). Petrobras cayó cerca de 3 % por un balance debajo de lo esperado.",
+                                         "lectura":  "La suba de EWZ es la suma de bolsa y moneda en partes parecidas. El real se apreció contra un dólar global que subía, por eso interpreto que pesó el anuncio fiscal. Petrobras restó: sin esa caída, el índice habría subido más.",
+                                         "vigilar":  "El trámite del paquete fiscal en el Congreso y la reacción del dólar al IPCA de hoy. Un dólar debajo de R$ 5,50 confirmaría que lo del martes fue transitorio; volver arriba de R$ 5,60 lo desmentiría."
+                                     },
+                                     {
+                                         "id":  "PAGS",
+                                         "pais":  "Brasil",
+                                         "nombre":  "PagBank",
+                                         "impacto":  "Favorable",
+                                         "que_paso":  "Subió 3,4 % a US$ 7,94, por encima del cierre del lunes. No encontré noticias propias de la empresa; el balance del tercer trimestre está previsto para el 16/11 tras el cierre.",
+                                         "lectura":  "Se movió como una versión amplificada de Brasil, sin noticia propia. Mi lectura: el mercado empieza a poner en precio un fondeo algo más barato si la inflación baja y el fiscal se ordena, algo clave para un banco que hace crecer su crédito 30 % al año o más.",
+                                         "vigilar":  "Balance del 16/11: costo de fondeo, crecimiento de la cartera de crédito y mora."
+                                     },
+                                     {
+                                         "id":  "NU",
+                                         "pais":  "Brasil",
+                                         "nombre":  "Nu Holdings",
+                                         "impacto":  "Favorable",
+                                         "que_paso":  "Subió 2,0 % a US$ 12,32 antes de su balance. Hoy publica el tercer trimestre tras el cierre; previas de mercado esperan una ganancia por acción cercana a US$ 0,22-0,23 e ingresos de US$ 5.700 a 5.900 millones.",
+                                         "lectura":  "La suba acompañó a Brasil y al Nasdaq, sin noticia propia. Interpreto que el mercado llega al balance con expectativas altas tras un segundo trimestre con ganancia por encima de US$ 1.000 millones, así que la reacción dependerá más de la mora y las provisiones que de la ganancia.",
+                                         "vigilar":  "Balance de hoy: mora de más de 90 días, provisiones, margen financiero y México. Mora por encima de lo esperado sería el dato que cambiaría la lectura."
+                                     },
+                                     {
+                                         "id":  "MERVAL",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Merval",
+                                         "impacto":  "Adverso",
+                                         "que_paso":  "Bajó 0,8 % a 83.440 puntos en la primera rueda local desde el viernes 6 (Rava; Infobae y El Cronista lo dan en 83.576-83.586, -0,6 %). YPF local cayó 3,9 %. En Nueva York, GGAL -0,1 % a US$ 29,87 e YPF +0,2 % a US$ 37,36.",
+                                         "lectura":  "Parte de la baja es la puesta al día con lo que hicieron los ADR mientras la plaza local estuvo cerrada. Que el Merval no rebotara con Wall Street en +1,3 % muestra que el factor local, la incertidumbre política hacia 2027, sigue pesando más que el global.",
+                                         "vigilar":  "El IPC de octubre que publica hoy el INDEC y si el Merval corta la racha de cuatro bajas."
+                                     },
+                                     {
+                                         "id":  "TC",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Tipo de cambio",
+                                         "impacto":  "Neutral",
+                                         "que_paso":  "El mayorista cerró en $ 1.544 según Infobae y BAE ($ 1.547,91 de la Com. A 3500 en el script). CCL cerca de $ 1.660-1.665 y blue entre $ 1.565 y $ 1.570 según los medios. El BCRA compró US$ 29 millones y las reservas bajaron US$ 312 millones a US$ 49.330 millones.",
+                                         "lectura":  "El peso se mantuvo estable con el BCRA comprando poco (US$ 80 millones en noviembre). La caída de reservas, según los medios, refleja movimientos posteriores al pago de unos US$ 880 millones al FMI la semana pasada; interpreto que el BCRA prioriza no presionar el tipo de cambio antes que acumular rápido.",
+                                         "vigilar":  "El ritmo de compras del BCRA y si las reservas vuelven a subir. Un CCL arriba de $ 1.700 indicaría demanda de cobertura."
+                                     },
+                                     {
+                                         "id":  "BONOS",
+                                         "pais":  "Argentina",
+                                         "nombre":  "Bonos y riesgo país",
+                                         "impacto":  "Neutral",
+                                         "que_paso":  "Riesgo país 852 (853 el martes). AL30D +0,4 % a US$ 51,52 (Rava). El Tesoro adjudicó $ 8,87 billones en su licitación con un rollover de 103 %, según Infobae.",
+                                         "lectura":  "El crédito se estabilizó tras el rebote del lunes y martes, sin nueva baja. El rollover arriba de 100 % es una señal de que el Tesoro sigue consiguiendo pesos, aunque Adcap advierte que con caución arriba de 25 % deja de estar garantizado. Con el Treasury a 10 años cerca de 5 %, el piso del riesgo país sigue alto.",
+                                         "vigilar":  "Bajar de 850 de forma sostenida cambiaría la lectura; volver arriba de 900 indicaría que el rebote terminó."
+                                     }
+                                 ],
+                     "noticias":  [
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "EWZ, PAGS, NU",
+                                          "impacto":  "Favorable",
+                                          "titulo":  "El gobierno de Brasil presenta un ajuste de R$ 50.000 a 60.000 millones para 2027 y el Ibovespa sube",
+                                          "lectura":  "Es el factor local que explica por qué el real se apreció contra un dólar global fuerte; el mercado todavía espera el diseño final y el paso por el Congreso.",
+                                          "medio":  "O Tempo",
+                                          "url":  "https://www.otempo.com.br/economia/2026/11/11/com-pacote-fiscal-no-radar-ibovespa-termina-a-quarta-feira-no-azul"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "EWZ, PAGS, NU",
+                                          "impacto":  "Favorable",
+                                          "titulo":  "La inflación de Brasil de octubre fue 0,14 %, debajo de todas las estimaciones",
+                                          "lectura":  "Reabre la discusión de bajas de la Selic en 2027, lo que favorece sobre todo a PAGS y NU por el costo de fondeo.",
+                                          "medio":  "InfoMoney",
+                                          "url":  "https://www.infomoney.com.br/economia/ipca-inflacao-outubro-2026-dados-ibge/"
+                                      },
+                                      {
+                                          "region":  "Brasil",
+                                          "activos":  "EWZ",
+                                          "impacto":  "Favorable",
+                                          "titulo":  "El dólar baja a R$ 5,56 y el Ibovespa sube 0,42 % con el foco en el plan fiscal",
+                                          "lectura":  "Corrige parte del salto del martes; la suba de EWZ se reparte entre bolsa y moneda.",
+                                          "medio":  "Itabira Online",
+                                          "url":  "https://itabiraonline.com.br/2026/11/11/dolar-fecha-em-queda-a-r-556-e-ibovespa-sobe-042-nesta-quarta-feira-11/"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Merval, bonos, tipo de cambio",
+                                          "impacto":  "Adverso",
+                                          "titulo":  "Cuarta baja seguida del Merval en la reapertura, con bonos en rebote y licitación del Tesoro con rollover de 103 %",
+                                          "lectura":  "Las acciones siguen castigadas por la incertidumbre política, mientras el Tesoro mantiene su financiamiento en pesos.",
+                                          "medio":  "Infobae",
+                                          "url":  "https://www.infobae.com/economia/2026/11/11/la-bolsa-portena-cayo-por-cuarta-rueda-seguida-y-se-mantiene-la-cautela-sobre-las-acciones-y-los-bonos-argentinos/"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Merval, bonos, riesgo país",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "El riesgo país cierra en 852 con acciones y Globales en baja",
+                                          "lectura":  "Da una visión más negativa que Infobae sobre los bonos; el riesgo país casi no se movió.",
+                                          "medio":  "El Cronista",
+                                          "url":  "https://www.cronista.com/finanzas-mercados/acciones-y-bonos-volvieron-a-caer-y-el-riesgo-pais-cerro-en-852-puntos/"
+                                      },
+                                      {
+                                          "region":  "Argentina",
+                                          "activos":  "Tipo de cambio, reservas",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "El mayorista baja a $ 1.544 tras cinco días sin operar y el BCRA compra US$ 29 millones",
+                                          "lectura":  "Peso estable, pero con compras chicas y reservas en baja a US$ 49.330 millones.",
+                                          "medio":  "BAE Negocios",
+                                          "url":  "https://www.baenegocios.com/finanzas/el-dolar-bajo-tras-cinco-dias-sin-operaciones-y-el-bcra-compro-otros-usd-29-millones/"
+                                      },
+                                      {
+                                          "region":  "Global",
+                                          "activos":  "EWZ, PAGS, NU, bonos",
+                                          "impacto":  "Favorable",
+                                          "titulo":  "Wall Street sube 1,3 % con la tecnología mientras los futuros ya dan por hecha una suba de la Fed en diciembre",
+                                          "lectura":  "El clima de riesgo mejoró (VIX en 17,5), pero el dólar global siguió firme y los funcionarios de la Fed hablan de más subas: el alivio para emergentes es parcial.",
+                                          "medio":  "CappNotes",
+                                          "url":  "https://cappnotes.substack.com/p/closing-look-wednesday-november-11"
+                                      },
+                                      {
+                                          "region":  "Global",
+                                          "activos":  "YPF, Merval",
+                                          "impacto":  "Neutral",
+                                          "titulo":  "El petróleo sube por la tensión en Ormuz y Nvidia cae después del cierre",
+                                          "lectura":  "El Brent en US$ 92,76 sostiene a YPF; la caída de Nvidia fuera de hora puede enfriar hoy el ánimo tecnológico que ayudó a NU.",
+                                          "medio":  "Economía Responsable",
+                                          "url":  "https://www.economiaresponsablefinanzas.com/inversiones/mercados/mercados-hoy-11-noviembre-2026/"
+                                      }
+                                  ],
+                     "agenda":  [
+                                    {
+                                        "fecha":  "2026-11-12",
+                                        "evento":  "IPC de octubre (INDEC), 16 h",
+                                        "activos":  "Merval, bonos, tipo de cambio",
+                                        "por_que":  "Un dato alto complicaría la baja de tasas en pesos y el rollover del Tesoro."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-12",
+                                        "evento":  "Balance del tercer trimestre de Nu, tras el cierre (fecha estimada)",
+                                        "activos":  "NU",
+                                        "por_que":  "Mora, provisiones, margen y México; las previas esperan ganancia por acción de US$ 0,22-0,23."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-13",
+                                        "evento":  "Precios al productor (PPI) de octubre en EE. UU.",
+                                        "activos":  "EWZ, PAGS, NU, bonos",
+                                        "por_que":  "Otro dato de inflación alto reforzaría la suba de la Fed en diciembre y la presión sobre emergentes."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-16",
+                                        "evento":  "Balance del tercer trimestre de PagBank, tras el cierre",
+                                        "activos":  "PAGS",
+                                        "por_que":  "Costo de fondeo y crecimiento del crédito con la Selic en pausa."
+                                    },
+                                    {
+                                        "fecha":  "2026-11-18",
+                                        "evento":  "Votación del paquete fiscal en el Congreso de Brasil (fecha estimada)",
+                                        "activos":  "EWZ, PAGS, NU",
+                                        "por_que":  "Los medios mencionan una votación rápida, sin fecha confirmada; una versión diluida restaría el efecto del miércoles."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-01",
+                                        "evento":  "Pagos al FMI de diciembre (fecha estimada dentro del mes)",
+                                        "activos":  "Bonos, reservas",
+                                        "por_que":  "Otra salida de reservas antes de los vencimientos de enero."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-08",
+                                        "evento":  "Última reunión del Copom del año (8 y 9 de diciembre)",
+                                        "activos":  "EWZ, PAGS, NU",
+                                        "por_que":  "Define si sigue la pausa en 13,75 %; el IPCA bajo de octubre abre la puerta a señales de recorte para 2027."
+                                    },
+                                    {
+                                        "fecha":  "2026-12-09",
+                                        "evento":  "Decisión de la Fed de diciembre (fecha estimada)",
+                                        "activos":  "EWZ, PAGS, NU, bonos",
+                                        "por_que":  "El mercado descuenta una suba de 0,25 punto; medio punto sería un golpe adicional para emergentes."
+                                    },
+                                    {
+                                        "fecha":  "2027-01-09",
+                                        "evento":  "Vencimiento de Bonares y Globales, unos US$ 4.400 millones",
+                                        "activos":  "AL30D, Globales, riesgo país",
+                                        "por_que":  "Primer pago grande de 2027; Rava indica para el AL30 un pago de 8,24 por cada 100 nominales."
+                                    }
+                                ],
+                     "limites":  "El informe se generó cerca de las 10:25, después del horario objetivo de las 9:30. El Merval difiere entre fuentes: 83.440 (Rava, usado en el tablero, -0,8 %) contra 83.576 (Infobae) y 83.586 (El Cronista), ambos -0,6 %. El AL30D (51,52) sale de Rava, que no rotula la moneda en la tabla histórica; se asume dólares por el ticker. Sobre los bonos, Infobae informa subas de hasta 3,2 % en Globales y El Cronista bajas; no pude ver precios de Globales individuales. En el tablero, CCL ($ 1.664,90) y blue ($ 1.555) repiten el valor del día anterior, mientras los medios dan CCL $ 1.660 y blue $ 1.565-1.570; el mayorista es $ 1.547,91 (A3500) en el tablero y $ 1.544 en los medios. El mercado de bonos de EE. UU. estuvo cerrado el miércoles por el Día del Veterano: el Treasury a 10 años del tablero (4,998 %) no es un cierre oficial. No pude leer las notas de SpaceMoney y Canal Rural (acceso bloqueado), una de las cuales sugiere que el dólar subía esta mañana pese al IPCA; no lo verifiqué. Las cifras de la Fed y de Nvidia salen de blogs de mercado (CappNotes, Economía Responsable), no de fuentes oficiales. No encontré noticias propias de PAGS ni de NU, ni tasas DI del miércoles. La fecha de votación del paquete fiscal en Brasil es una estimación propia: los medios hablan de una votación rápida sin fecha confirmada."
                  }
              ]
 }
