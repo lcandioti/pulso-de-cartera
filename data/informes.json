@@ -2138,6 +2138,234 @@
                                     }
                                 ],
                      "limites":  "Informe de domingo: no hubo rueda, así que todas las cotizaciones son del viernes 13, salvo CCL ($ 1.671,90) y blue ($ 1.575), que el script registra con fecha del sábado 14. Merval (85.096) y AL30D (US$ 51,55) son los cierres de Rava ya cargados el sábado; no hay rueda nueva que actualizar. No encontré noticias de la cartera fechadas el sábado 14 ni el domingo 15; no puedo descartar algo publicado fuera de las fuentes revisadas. Mayorista: el script usa la Com. A 3500 ($ 1.547,03) e iProfesional da $ 1.544. La URL de la nota de iProfesional dice 836 pero el cuerpo informa 830, que coincide con el script. El consenso de PagBank (US$ 0,41 por acción) sale de Earnings Whispers visto solo en el buscador, con texto asistido por IA; no lo verifiqué en otra fuente. El feriado de la B3 del 20 de noviembre lo confirma una sola fuente secundaria (The Rio Times), no el calendario oficial de la B3. El Investor Day de Nu del 8 de diciembre sale de una sola fuente vista en el buscador. No pude leer O Cafezinho (acceso bloqueado), así que no tengo tasas DI de cierre; la Selic de 13,75 % sale de resultados del buscador. No verifiqué cambios de recomendación sobre NU posteriores al balance. Las fechas de la licitación del Tesoro y del desembolso del FMI siguen sin comunicado oficial."
-                 }
-             ]
+                 },
+{
+  "fecha": "2026-11-19",
+  "cierre": "2026-11-18",
+  "generado": "2026-11-19T18:00:00-03:00",
+  "tono": "Adverso",
+  "titular": "El real en su peor nivel desde abril de 2025 y una PagBank que recortó su guía arrastraron a toda la pata brasileña, y hoy el riesgo país argentino volvió arriba de 900: la cartera paga a la vez el riesgo fiscal de Brasil y el contagio regional",
+  "resumen": "En la rueda del miércoles 18 la pata brasileña cayó en bloque: EWZ -3,1 % a US$ 30,07, PAGS -4,0 % a US$ 7,53 y NU -2,0 % a US$ 12,08, mientras el Ibovespa perdía 1,34 % y el dólar subía casi 1,5 % a cerca de R$ 5,87, su cierre más alto desde abril de 2025. La diferencia entre EWZ y el Ibovespa es casi toda moneda: el mercado castigó al real a la espera de la votación del ajuste fiscal, y en PagBank se sumó un balance que superó lo esperado en ganancia pero bajó la guía de ganancia bruta por la Selic alta. En Argentina el miércoles fue tranquilo en bonos (riesgo país 848, AL30D US$ 51,60), pero el Merval acumula una baja fuerte en noviembre y hoy jueves el cuadro empeoró: el riesgo país tocó 904 y el AL30D cerró en US$ 49,77 en Rava (-3,55 %). El factor común es el real: interpreto que la región se está leyendo como un solo bloque de riesgo, y Argentina suma dudas propias sobre cómo financiar los vencimientos de 2027.",
+  "puntos": [
+    {
+      "titulo": "El problema de EWZ es la moneda, no la bolsa",
+      "texto": "Hecho: el Ibovespa cayó 1,34 % a 167.538 puntos y el dólar subió cerca de 1,5 % a R$ 5,87 (Agência Brasil, CNN Brasil); EWZ, que mide lo mismo en dólares, cayó 3,1 %. Desde el viernes 13 EWZ pierde 6,7 % y el real se depreció de R$ 5,65 a R$ 5,87. Mi lectura: el mercado de monedas no se convence de que el ajuste fiscal alcance, y eso pesa doble en la cartera porque además mantiene alta la tasa larga en reales. Hoy el Senado ya había aprobado el proyecto y aun así el dólar llegó a R$ 5,91 a la mañana (IstoÉ Dinheiro): el mercado no compró el alivio. Lo que cambiaría la lectura: que la Cámara lo vote el lunes 23 sin recortes y el real vuelva debajo de R$ 5,75."
+    },
+    {
+      "titulo": "PagBank ganó más de lo esperado, pero admitió que la Selic le come el crecimiento",
+      "texto": "Hecho: PagBank informó una ganancia ajustada de R$ 611 millones en el tercer trimestre (+7 % interanual), ganancia por acción +13 %, cartera de crédito +25 % y una recompra de hasta US$ 150 millones; al mismo tiempo bajó la guía de crecimiento de la ganancia bruta de 2026 a 3-5 %, desde 6-9 %, por la Selic alta (PRNewswire). La acción cayó 1,9 % el martes y 4,0 % el miércoles. Interpreto que el mercado pesa más la guía que el trimestre: con la Selic en 13,75 % y el real débil empujando expectativas de inflación, el costo de fondeo no baja pronto y el negocio de pagos crece poco. La recompra pone un piso parcial, no cambia el mecanismo."
+    },
+    {
+      "titulo": "Argentina: del alivio de la semana pasada a 904 puntos en una rueda",
+      "texto": "Hecho: el miércoles el riesgo país cerró en 848 (Rava, script) y el BCRA compró apenas US$ 11 millones, con reservas en US$ 49.551 millones por la caída del oro (Ámbito). Hoy jueves el riesgo país llegó a 904, el CCL pasó $ 1.738 con brecha cercana a 11 % y los bonos en dólares cayeron entre 2 % y 3 % (Río Negro). Mi lectura: el detonante fue regional (real, tecnológicas), pero el tamaño de la reacción es local: el mercado no ve todavía cómo se pagan los vencimientos de enero y sin fecha del FMI. Una brecha que sube mientras el mayorista está lejos del techo de la banda indica demanda de cobertura, no falta de oferta oficial. Lo que cambiaría la lectura: un anuncio de financiamiento para enero o la fecha del Directorio del FMI."
+    }
+  ],
+  "noche": "Este informe se generó tarde (alrededor de las 18 de Argentina), así que cubre también la rueda de hoy jueves 19, que no está en el script. Después del cierre del miércoles salieron las minutas de la Fed: algunos miembros plantearon una suba de medio punto si la inflación no ayuda, y Nvidia cerró en baja pese a un balance mejor que lo esperado (Saxo). El Senado brasileño terminó de aprobar el ajuste fiscal para 2027 y el texto pasa a la Cámara, con votación prevista para el lunes 23; aun así el dólar abrió hoy en alza y tocó R$ 5,91 antes de moderarse hacia R$ 5,87. En Argentina la rueda de hoy fue negativa: riesgo país 904 (intradiario), AL30D US$ 49,77 (-3,55 % en Rava), Merval 81.146 puntos (-1,0 % en Rava), mayorista en máximo nominal cerca de $ 1.563 y CCL arriba de $ 1.730. Mañana viernes 20 la B3 no opera por feriado.",
+  "activos": [
+    {
+      "id": "EWZ",
+      "pais": "Brasil",
+      "nombre": "EWZ",
+      "impacto": "Adverso",
+      "que_paso": "Cayó 3,1 % a US$ 30,07 el miércoles; desde el viernes 13 pierde 6,7 %. Ibovespa -1,34 % a 167.538 puntos, arrastrado por bancos; dólar cerca de R$ 5,87 en el mercado (PTAX R$ 5,8102 en el script), quinta suba seguida.",
+      "lectura": "Interpreto que casi dos tercios de la caída del día son moneda: el real perdió cerca de 1,5 % y el Ibovespa 1,3 % en reales. Mientras el mercado dude del ajuste fiscal, EWZ va a caer más que la bolsa local.",
+      "vigilar": "Votación en la Cámara prevista para el lunes 23 y si el dólar vuelve debajo de R$ 5,75. El viernes 20 la B3 no opera: EWZ cotiza sin referencia local."
+    },
+    {
+      "id": "PAGS",
+      "pais": "Brasil",
+      "nombre": "PagBank",
+      "impacto": "Adverso",
+      "que_paso": "Presentó el balance del tercer trimestre: ganancia ajustada de R$ 611 millones (+7 %), ganancia por acción +13 %, crédito +25 %, recompra de hasta US$ 150 millones y recorte de la guía de ganancia bruta de 2026 a 3-5 % desde 6-9 %. La acción pasó de US$ 7,99 el lunes a US$ 7,53 el miércoles (-4,0 % ese día).",
+      "lectura": "El trimestre fue mejor que lo temido, pero la guía confirma que la Selic alta limita el crecimiento. Interpreto que la caída del miércoles mezcla esa guía con el castigo general a Brasil del día.",
+      "vigilar": "Cambios de recomendación posteriores al balance, el ritmo de la recompra y el Focus del lunes 23 por las expectativas de Selic."
+    },
+    {
+      "id": "NU",
+      "pais": "Brasil",
+      "nombre": "Nu Holdings",
+      "impacto": "Adverso",
+      "que_paso": "Cayó 2,0 % a US$ 12,08 el miércoles y ya devolvió la mayor parte de la suba posbalance: estaba en US$ 13,22 el viernes 13. Sin noticias propias en el período; Seu Dinheiro recoge que tras el balance BTG y Safra mantuvieron recomendación de compra e Itaú BBA lo vio neutro por la calidad del crédito.",
+      "lectura": "No tuvo noticia propia: la baja acompaña al real y al humor con acciones de crecimiento después de las minutas de la Fed. Interpreto que el mercado vuelve a mirar la mora más que la ganancia récord.",
+      "vigilar": "Si el Treasury a 10 años (5,07 %) vuelve a subir y el Investor Day de diciembre (fecha estimada)."
+    },
+    {
+      "id": "MERVAL",
+      "pais": "Argentina",
+      "nombre": "Merval",
+      "impacto": "Adverso",
+      "que_paso": "Cerró el miércoles en 81.932 puntos según Rava (Perfil informó 82.059, -0,07 %); desde el viernes 13 pierde 3,7 %. ADR el miércoles: GGAL -2,6 % a US$ 27,78, YPF -3,6 % a US$ 35,10, ARGT -2,3 %. Hoy jueves bajó 1,0 % a 81.146 puntos en Rava, con bancos e YPF a la cabeza de las caídas.",
+      "lectura": "Los ADR cayeron bastante más que el índice en pesos, lo que refleja que el CCL subió: en dólares la pérdida es mayor. Interpreto que YPF sufre además por el petróleo (Brent US$ 91,95, -1,3 %) y los bancos por la suba del riesgo país.",
+      "vigilar": "Si el riesgo país se sostiene arriba de 900 y si el CCL sigue subiendo, que licúa la acción medida en dólares."
+    },
+    {
+      "id": "TC",
+      "pais": "Argentina",
+      "nombre": "Tipo de cambio",
+      "impacto": "Adverso",
+      "que_paso": "Mayorista $ 1.558,24 en la Com. A 3500 del script el miércoles (Ámbito: $ 1.559,50, máximo nominal); CCL $ 1.697,20 y blue $ 1.605 en el script. BCRA compró solo US$ 11 millones y las reservas bajaron a US$ 49.551 millones por el oro (Ámbito). Hoy el CCL superó $ 1.730 y la brecha rondó 11 %.",
+      "lectura": "El oficial sube despacio y lejos del techo de la banda, pero la brecha se abre. Interpreto que es demanda de cobertura de quienes dudan del programa, y que las compras flojas del BCRA reducen el colchón para enero.",
+      "vigilar": "Las compras diarias del BCRA, si la brecha pasa 12 % y la licitación del Tesoro de fin de mes (fecha estimada)."
+    },
+    {
+      "id": "BONOS",
+      "pais": "Argentina",
+      "nombre": "Bonos y riesgo país",
+      "impacto": "Adverso",
+      "que_paso": "Miércoles: riesgo país 848 (desde 854) y AL30D US$ 51,60 en Rava. Hoy jueves: riesgo país 904 a media tarde (+6,6 %), AL30D US$ 49,77 al cierre en Rava (-3,55 %) y bajas de 2 % a 3 % en Bonares y Globales (Río Negro). En noviembre el riesgo país sube cerca de 15 %.",
+      "lectura": "Interpreto que el bono descuenta más probabilidad de un problema para refinanciar 2027; con TIR de 14,5 % en el AL30D (Rava), el mercado cobra un premio de crédito alto aun con los pagos de enero a menos de dos meses.",
+      "vigilar": "Fecha del Directorio del FMI, anuncios de financiamiento para el vencimiento de enero y si el riesgo país cierra la semana arriba de 900."
+    }
+  ],
+  "noticias": [
+    {
+      "region": "Brasil",
+      "activos": "EWZ, PAGS, NU",
+      "impacto": "Adverso",
+      "titulo": "El dólar cerró cerca de R$ 5,87, su máximo desde abril de 2025, y el Ibovespa perdió 1,3 % antes de la votación fiscal",
+      "lectura": "Es el factor que más explica la caída de la pata brasileña medida en dólares; los bancos lideraron las bajas.",
+      "medio": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-sobe-para-r-587-com-expectativa-sobre-votacao-de-ajuste-fiscal"
+    },
+    {
+      "region": "Brasil",
+      "activos": "PAGS",
+      "impacto": "Adverso",
+      "titulo": "PagBank tuvo su mejor tercer trimestre, pero recortó la guía de ganancia bruta por la Selic",
+      "lectura": "La recompra de hasta US$ 150 millones ayuda, pero la guía más baja confirma que el costo del dinero frena el negocio.",
+      "medio": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/pagbank-maintains-consistent-performance-in-3q26-with-net-income-of-r-611-million-302941052.html"
+    },
+    {
+      "region": "Argentina",
+      "activos": "Bonos, riesgo país, Merval, tipo de cambio",
+      "impacto": "Adverso",
+      "titulo": "El riesgo país volvió arriba de 900 con caídas de bonos, ADR y un CCL por encima de $ 1.730",
+      "lectura": "Borra en una rueda la mejora de la semana pasada; la combinación de real débil y dudas sobre 2027 pega directo en bonos y bancos.",
+      "medio": "Diario Río Negro",
+      "url": "https://www.rionegro.com.ar/economia/el-riesgo-pais-supero-los-900-puntos-caen-bonos-y-acciones-y-el-dolar-marca-un-nuevo-maximo-4805496/"
+    },
+    {
+      "region": "Brasil",
+      "activos": "EWZ, PAGS, NU",
+      "impacto": "Neutral",
+      "titulo": "El Senado aprobó el ajuste fiscal para 2027, pero el dólar igual tocó R$ 5,91",
+      "lectura": "El mercado no tomó la aprobación como alivio; ahora todo depende de que la Cámara no lo diluya.",
+      "medio": "IstoÉ Dinheiro",
+      "url": "https://istoedinheiro.com.br/dolar-hoje-19-11-2026-ajuste-fiscal-senado"
+    },
+    {
+      "region": "Argentina",
+      "activos": "Tipo de cambio, reservas, bonos",
+      "impacto": "Adverso",
+      "titulo": "El BCRA compró apenas US$ 11 millones y las reservas cayeron casi US$ 200 millones por el oro",
+      "lectura": "Menos compras significa menos colchón propio para el pago de enero, justo cuando el mercado duda del financiamiento.",
+      "medio": "Ámbito",
+      "url": "https://www.ambito.com/finanzas/dolar-el-bcra-modero-fuerte-el-ritmo-compras-y-las-reservas-bajaron-casi-us200-millones-n6346854"
+    },
+    {
+      "region": "Global",
+      "activos": "EWZ, PAGS, NU, bonos",
+      "impacto": "Adverso",
+      "titulo": "Las minutas de la Fed abren la puerta a más subas y hasta a medio punto si la inflación no cede",
+      "lectura": "Sostiene alto el costo de capital para emergentes y acciones de crecimiento; el Treasury a 10 años cerró en 5,07 %.",
+      "medio": "Saxo",
+      "url": "https://www.home.saxo/en-mena/content/articles/macro/market-quick-take---metals-slide-while-fed-minutes-point-to-further-hikes---19-november-2026-19112026"
+    },
+    {
+      "region": "Argentina",
+      "activos": "Merval, bonos",
+      "impacto": "Neutral",
+      "titulo": "El miércoles el riesgo país bajó a 848, pero el Merval y los ADR terminaron en rojo",
+      "lectura": "Muestra la divergencia previa al golpe de hoy: los bonos aguantaban y las acciones ya cedían.",
+      "medio": "Perfil",
+      "url": "https://www.perfil.com/economia/el-riesgo-pais-bajo-a-848-puntos-pero-el-merval-y-las-acciones-argentinas-cerraron-en-rojo-a40-aZpTt5a2TFud"
+    },
+    {
+      "region": "Brasil",
+      "activos": "NU",
+      "impacto": "Neutral",
+      "titulo": "Tras el balance de Nu, la mayoría de los analistas sostiene la visión positiva, con dudas sobre la mora",
+      "lectura": "No hubo noticias nuevas de Nu esta semana; su baja acompaña al real y al humor global, no a un cambio propio.",
+      "medio": "Seu Dinheiro",
+      "url": "https://www.seudinheiro.com/2026/empresas/nubank-nu-vence-mais-uma-batalha-mas-nao-a-guerra-por-que-o-mercado-ignorou-a-piora-do-credito-e-fez-a-acao-disparar-10/"
+    }
+  ],
+  "agenda": [
+    {
+      "fecha": "2026-11-20",
+      "evento": "Feriado en Brasil (Día de la Conciencia Negra): B3 sin operaciones",
+      "activos": "EWZ, PAGS, NU",
+      "por_que": "Los ADR operan en Nueva York sin referencia local, con el real bajo presión."
+    },
+    {
+      "fecha": "2026-11-23",
+      "evento": "Boletín Focus del Banco Central de Brasil",
+      "activos": "EWZ, PAGS, NU",
+      "por_que": "Mostrará si el dólar arriba de R$ 5,80 ya sube las expectativas de inflación y de Selic."
+    },
+    {
+      "fecha": "2026-11-23",
+      "evento": "Votación del ajuste fiscal en la Cámara de Diputados de Brasil (fecha estimada, según prensa)",
+      "activos": "EWZ, PAGS, NU",
+      "por_que": "Si el texto sale sin cambios puede aliviar al real; si se diluye, el riesgo es otra suba del dólar."
+    },
+    {
+      "fecha": "2026-11-30",
+      "evento": "Licitación del Tesoro argentino con vencimientos por cerca de $ 29,4 billones (fecha estimada)",
+      "activos": "Tipo de cambio, bonos, Merval",
+      "por_que": "Mide cuántos pesos renueva el mercado y a qué tasa, con la brecha en alza."
+    },
+    {
+      "fecha": "2026-12-01",
+      "evento": "Tercera revisión del FMI y desembolso de cerca de US$ 900 millones (fecha estimada dentro de diciembre)",
+      "activos": "Bonos, reservas, riesgo país",
+      "por_que": "Es la novedad local que más podría frenar la suba del riesgo país."
+    },
+    {
+      "fecha": "2026-12-08",
+      "evento": "Última reunión del Copom del año (8 y 9 de diciembre)",
+      "activos": "EWZ, PAGS, NU",
+      "por_que": "El Focus espera que la Selic siga en 13,75 %; un real débil podría endurecer el mensaje."
+    },
+    {
+      "fecha": "2026-12-08",
+      "evento": "Investor Day de Nu Holdings en Nueva York (fecha estimada)",
+      "activos": "NU",
+      "por_que": "Metas de mediano plazo; puede aclarar crédito y mora para 2027."
+    },
+    {
+      "fecha": "2026-12-09",
+      "evento": "Decisión de la Fed de diciembre (fecha estimada)",
+      "activos": "EWZ, PAGS, NU, bonos",
+      "por_que": "Una suba está descontada; las minutas dejaron abierta la opción de medio punto."
+    },
+    {
+      "fecha": "2026-12-15",
+      "evento": "IPC de noviembre (INDEC) (fecha estimada)",
+      "activos": "Merval, bonos, tipo de cambio",
+      "por_que": "Dirá si el 2,2 % de octubre fue un salto puntual o un cambio de tendencia."
+    },
+    {
+      "fecha": "2027-01-09",
+      "evento": "Vencimiento de Globales y Bonares, unos US$ 4.400 millones (el AL30 paga el 11 de enero según el flujo de Rava)",
+      "activos": "AL30D, Globales, riesgo país",
+      "por_que": "Primer pago grande de 2027 y el centro de la duda del mercado sobre el financiamiento; el AL30 paga 8,24 por cada 100 nominales."
+    },
+    {
+      "fecha": "2027-02-25",
+      "evento": "Balance del cuarto trimestre de Nu Holdings (fecha estimada)",
+      "activos": "NU",
+      "por_que": "Mostrará si la mora sigue subiendo."
+    },
+    {
+      "fecha": "2027-02-26",
+      "evento": "Balance del cuarto trimestre de PagBank (fecha estimada)",
+      "activos": "PAGS",
+      "por_que": "Primer control de la nueva guía y de la recompra."
+    }
+  ],
+  "limites": "El informe se generó cerca de las 18 de Argentina, después del horario previsto de las 9:30, por eso incluye la rueda de hoy jueves 19, que el script no registra: riesgo país 904 es un dato intradiario (Río Negro, 15:54), y AL30D US$ 49,77 y Merval 81.146 son cierres de hoy vistos en Rava. Las semanas del 16 y 17 no tuvieron informe propio y no hay en el script cierres de Merval ni AL30D para esos días, por eso su variación se compara contra el viernes 13. Merval del miércoles: Rava da 81.932,50 como cierre anterior y Perfil informó 82.059,18; usé Rava. Ganancia de PagBank: el comunicado da R$ 611 millones ajustados y otra fuente (euqueroinvestir, vista en el buscador) cita R$ 584 millones, probablemente contable; no lo verifiqué. No encontré una nota que explique la reacción de PAGS al balance día por día; la atribuyo a la guía como interpretación. Dólar en Brasil: los medios dan entre R$ 5,86 y R$ 5,87 al cierre del miércoles; el script usa la PTAX (R$ 5,8102). Compras del BCRA: Ámbito da US$ 11 millones y reservas de US$ 49.551 millones, mientras Infobae muestra cifras distintas en la misma nota. No encontré publicada la balanza comercial de octubre del INDEC, prevista para hoy. No tengo tasas DI de cierre. Varias notas se leyeron a través de resúmenes del buscador y no completas (Agência Brasil, PR Newswire, Ámbito, Perfil, Saxo, Seu Dinheiro, IstoÉ). La fecha de votación en la Cámara de Brasil, la licitación del Tesoro, el desembolso del FMI, el Investor Day de Nu y los balances del cuarto trimestre no tienen fecha oficial confirmada."
+}
+]
 }
